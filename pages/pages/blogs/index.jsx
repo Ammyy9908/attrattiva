@@ -1,4 +1,5 @@
 import BlogCard from "@/components/BlogCard";
+import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
@@ -24,6 +25,7 @@ function Blogs() {
           <BlogCard />
         </div>
       </div>
+      <WhatsappButton />
       <Footer />
     </div>
   );

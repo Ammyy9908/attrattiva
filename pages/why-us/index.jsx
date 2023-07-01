@@ -1,3 +1,4 @@
+import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
@@ -94,6 +95,7 @@ HIGH QUALITY "
           </div>
         </div>
       </div>
+      <WhatsappButton />
       <Footer />
     </main>
   );

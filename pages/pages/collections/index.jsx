@@ -1,5 +1,6 @@
 import CollectionSmallCard from "@/components/CollectionCard";
 import CollectionCardLarge from "@/components/ColllectionCardLarge";
+import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
@@ -48,6 +49,7 @@ function Collection() {
           <CollectionCardLarge />
         </div>
       </div>
+      <WhatsappButton />
       <Footer />
     </div>
   );
