@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="gallery-section px-2 py-6 lg:px-32 lg:py-64 grid grid-cols-1 md:grid-cols-2 gap-32 md:gap-y-64 mb-64">
+      <section className="gallery-section px-2 py-6 lg:px-32 lg:py-64 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-32 md:gap-y-64 mb-64">
         <div className="gallery-small my-16">
           <div className="gallery-card w-full h-full">
             <img
