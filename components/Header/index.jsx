@@ -27,7 +27,7 @@ function Header() {
           <li>
             <Link
               href="/"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Home
             </Link>
@@ -35,7 +35,7 @@ function Header() {
           <li>
             <Link
               href="/why-us"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Why Us?
             </Link>
@@ -43,7 +43,7 @@ function Header() {
           <li>
             <Link
               href="/story"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Story
             </Link>
@@ -51,15 +51,15 @@ function Header() {
           <li className="relative group">
             <Link
               href="/pages/collections"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Collections
             </Link>
-            <ul className="group-hover:block hidden absolute px-2 py-2 bg-white uppercase w-[230px]">
+            <ul className="group-hover:block hidden absolute px-2 py-2 bg-white/90 uppercase w-[230px] shadow-xl rounded-md backdrop-blur-md">
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Luxury Furniture
                 </Link>
@@ -67,7 +67,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Home Decor & Art
                 </Link>
@@ -75,7 +75,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Tanjore Paintings
                 </Link>
@@ -83,7 +83,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Modern Art & Pantings
                 </Link>
@@ -91,7 +91,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   God Statues
                 </Link>
@@ -99,7 +99,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Silver Artifacts & Furniture
                 </Link>
@@ -107,7 +107,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Pichwai Art & Paintings
                 </Link>
@@ -115,7 +115,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Interior Solutions
                 </Link>
@@ -123,7 +123,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Gold Furniiture
                 </Link>
@@ -131,7 +131,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Bone Inlay Furniture
                 </Link>
@@ -139,7 +139,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Murano Art
                 </Link>
@@ -147,7 +147,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-xs text-black/50 hover:text-black"
+                  className="text-xs text-black/50 hover:text-[#c29538]"
                 >
                   Semiprecious Inlay Work
                 </Link>
@@ -157,7 +157,7 @@ function Header() {
           <li>
             <Link
               href="/pages/blogs"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Blogs
             </Link>
@@ -165,7 +165,7 @@ function Header() {
           <li>
             <Link
               href="/pages/contact"
-              className="uppercase text-xs text-black/50 hover:text-black"
+              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
             >
               Contact
             </Link>
@@ -177,24 +177,30 @@ function Header() {
         <div className="mobile__nav w-full lg:hidden">
           <ul className="w-full flex flex-col items-start">
             <li className="w-full py-3  border-b">
-              <Link href={"/"} className="text-black/50 hover:text-black">
+              <Link href={"/"} className="text-black/50 hover:text-[#c29538]">
                 Home
               </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/why-us"} className="text-black/50 hover:text-black">
+              <Link
+                href={"/why-us"}
+                className="text-black/50 hover:text-[#c29538]"
+              >
                 Why Us?
               </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/story"} className="text-black/50 hover:text-black">
+              <Link
+                href={"/story"}
+                className="text-black/50 hover:text-[#c29538]"
+              >
                 Story
               </Link>
             </li>
             <li className="w-full py-3 border-b">
               <Link
                 href={"/pages/collections"}
-                className="text-black/50 hover:text-black"
+                className="text-black/50 hover:text-[#c29538]"
               >
                 Collections
               </Link>
@@ -202,7 +208,7 @@ function Header() {
             <li className="w-full py-3 border-b">
               <Link
                 href={"/pages/blogs"}
-                className="text-black/50 hover:text-black"
+                className="text-black/50 hover:text-[#c29538]"
               >
                 Blogs
               </Link>
