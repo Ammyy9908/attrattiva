@@ -11,7 +11,7 @@ function Collection() {
       <div
         className="collection--banner w-full h-[375px] md:h-[575px]"
         style={{
-          backgroundImage: `url("http://attrattiva.in/wp-content/uploads/2021/07/0004_1-1024x514.jpg")`,
+          backgroundImage: `url("/images/attrattive_collections_banner.jpeg")`,
           backgroundSize: `cover`,
         }}
       ></div>
@@ -29,21 +29,9 @@ function Collection() {
         </div>
 
         <div className="collecttions-top_list w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 py-32 px-12 lg:px-32">
-          <CollectionSmallCard
-            thumb={
-              "http://attrattiva.in/wp-content/uploads/2021/07/0003_2-1024x808.jpg"
-            }
-          />
-          <CollectionSmallCard
-            thumb={
-              "http://attrattiva.in/wp-content/uploads/2021/07/0002-1024x724.jpg"
-            }
-          />
-          <CollectionSmallCard
-            thumb={
-              "http://attrattiva.in/wp-content/uploads/2021/07/1-78a-1024x683.jpg"
-            }
-          />
+          <CollectionSmallCard thumb={"/images/0003_2-1024x808.jpg"} />
+          <CollectionSmallCard thumb={"/images/0002-1024x724.jpg"} />
+          <CollectionSmallCard thumb={"/images/1-78a-1024x683.jpg"} />
         </div>
       </div>
 

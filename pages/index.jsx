@@ -33,28 +33,28 @@ export default function Home() {
         >
           <SwiperSlide className="h-full w-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2019/12/banner-1.jpg"
+              src="/images/attrattiva_banner_1.jpeg"
               alt="hero-section-image"
               className="w-full h-full object-cover"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2021/03/SLIDER-3.jpg"
+              src="/images/attrative_banner_2.jpeg"
               alt="hero-section-image"
               className="w-full h-full object-cover"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2019/12/banner-3.jpg"
+              src="/images/attrattive_banner_3.jpeg"
               alt="hero-section-image"
               className="w-full h-full object-cover"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2019/12/banner-2.jpg"
+              src="/images/attrattive_banner_4.jpeg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -89,10 +89,7 @@ export default function Home() {
       <section className="inspiration-section px-12 lg:px-32 py-32 bg-[#FAF9F7]">
         <div className="inspiration-container grid grid-cols-1 lg:grid-cols-2 gap-32">
           <div className="section--image">
-            <img
-              src="http://attrattiva.in/wp-content/uploads/2019/12/story-image.png"
-              alt="inspiration-thumb"
-            />
+            <img src="/images/attrattive_story.png" alt="inspiration-thumb" />
           </div>
           <div className="inspiration-content text-center flex flex-col items-center gap-3 h-full  justify-center">
             <div className="flex flex-col items-center gap-5">
@@ -131,7 +128,7 @@ export default function Home() {
         <div className="gallery-small my-16">
           <div className="gallery-card w-full h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2021/07/artifacr100-985x1024.jpg"
+              src="/images/artifacr100-985x1024.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -149,7 +146,7 @@ export default function Home() {
         <div className="gallery-large my-16">
           <div className="gallery-card w-full h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2021/07/1-78a-1024x683.jpg"
+              src="/images/1-78a-1024x683.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -170,7 +167,7 @@ export default function Home() {
         <div className="gallery-large my-16">
           <div className="gallery-card w-full h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2021/03/IMG-20200318-WA0011.jpg"
+              src="/images/IMG-20200318-WA0011.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -187,7 +184,7 @@ export default function Home() {
         <div className="gallery-small my-16">
           <div className="gallery-card w-full h-full">
             <img
-              src="http://attrattiva.in/wp-content/uploads/2021/03/bdcd188c-bfcd-4b66-9b87-978064a0c149-1024x768.jpg"
+              src="/images/bdcd188c-bfcd-4b66-9b87-978064a0c149-1024x768.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
