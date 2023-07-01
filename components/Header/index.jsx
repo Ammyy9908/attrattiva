@@ -7,7 +7,7 @@ function Header() {
     <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 flex flex-col items-start shadow-xl">
       <div className="header__top w-full text-center flex items-center justify-between md:block">
         <button
-          className="w-8 h-8 hover:bg-black/10 md:hidden flex items-center justify-center rounded-full"
+          className="w-8 h-8 hover:bg-black/10 lg:hidden flex items-center justify-center rounded-full"
           onClick={() => {
             setNav(!nav);
           }}
@@ -22,7 +22,7 @@ function Header() {
         </a>
         <div></div>
       </div>
-      <div className="header__nav px-64 w-full mt-3 hidden md:block">
+      <div className="header__nav px-64 w-full mt-3 hidden lg:block">
         <ul className="flex  w-full items-center justify-center gap-12">
           <li>
             <Link
@@ -174,7 +174,7 @@ function Header() {
       </div>
 
       {nav && (
-        <div className="mobile__nav w-full md:hidden">
+        <div className="mobile__nav w-full lg:hidden">
           <ul className="w-full flex flex-col items-start">
             <li className="w-full py-3  border-b">
               <Link href={"/"} className="text-black/50 hover:text-black">
