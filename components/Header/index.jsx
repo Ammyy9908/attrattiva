@@ -25,32 +25,148 @@ function Header() {
       <div className="header__nav px-64 w-full mt-3 hidden md:block">
         <ul className="flex  w-full items-center justify-center gap-12">
           <li>
-            <Link href="/" className="uppercase text-xs">
+            <Link
+              href="/"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href="/pages/about" className="uppercase text-xs">
-              About
+            <Link
+              href="/pages/about"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
+              Why Us?
             </Link>
           </li>
           <li>
-            <Link href="/story" className="uppercase text-xs">
+            <Link
+              href="/story"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
               Story
             </Link>
           </li>
-          <li>
-            <Link href="/pages/collections" className="uppercase text-xs">
+          <li className="relative group">
+            <Link
+              href="/pages/collections"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
               Collections
             </Link>
+            <ul className="group-hover:block hidden absolute px-2 py-2 bg-white uppercase w-[230px]">
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Luxury Furniture
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Home Decor & Art
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Tanjore Paintings
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Modern Art & Pantings
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  God Statues
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Silver Artifacts & Furniture
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Pichwai Art & Paintings
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Interior Solutions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Gold Furniiture
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Bone Inlay Furniture
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Murano Art
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="text-xs text-black/50 hover:text-black"
+                >
+                  Semiprecious Inlay Work
+                </Link>
+              </li>
+            </ul>
           </li>
           <li>
-            <Link href="/blogs" className="uppercase text-xs">
+            <Link
+              href="/pages/blogs"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
               Blogs
             </Link>
           </li>
           <li>
-            <Link href="/pages/contact" className="uppercase text-xs">
+            <Link
+              href="/pages/contact"
+              className="uppercase text-xs text-black/50 hover:text-black"
+            >
               Contact
             </Link>
           </li>
@@ -61,19 +177,35 @@ function Header() {
         <div className="mobile__nav w-full md:hidden">
           <ul className="w-full flex flex-col items-start">
             <li className="w-full py-3  border-b">
-              <Link href={"/"}>Home</Link>
+              <Link href={"/"} className="text-black/50 hover:text-black">
+                Home
+              </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/about"}>About</Link>
+              <Link href={"/about"} className="text-black/50 hover:text-black">
+                Why Us?
+              </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/story"}>Story</Link>
+              <Link href={"/story"} className="text-black/50 hover:text-black">
+                Story
+              </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/pages/collections"}>Collections</Link>
+              <Link
+                href={"/pages/collections"}
+                className="text-black/50 hover:text-black"
+              >
+                Collections
+              </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/blogs"}>Blogs</Link>
+              <Link
+                href={"/pages/blogs"}
+                className="text-black/50 hover:text-black"
+              >
+                Blogs
+              </Link>
             </li>
           </ul>
         </div>

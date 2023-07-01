@@ -16,7 +16,7 @@ function Collection() {
         }}
       ></div>
       <div className="collection-hero-section  flex flex-col items-center justify-center bg-[#faf9f7] py-12">
-        <div className="collection-header text-center">
+        <div className="collection-header text-center px-12">
           <h1 className="text-2xl md:text-6xl title">Bespoke Furniture</h1>
           <p className="text-sm text-black/50 mt-6 max-w-[775px]">
             If you are looking for suitable furniture for your own home, you
@@ -28,7 +28,7 @@ function Collection() {
           </p>
         </div>
 
-        <div className="collecttions-top_list w-full grid grid-cols-1 md:grid-cols-3 gap-16 py-32 px-12 md:px-32">
+        <div className="collecttions-top_list w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 py-32 px-12 lg:px-32">
           <CollectionSmallCard
             thumb={
               "http://attrattiva.in/wp-content/uploads/2021/07/0003_2-1024x808.jpg"
@@ -47,8 +47,8 @@ function Collection() {
         </div>
       </div>
 
-      <div className="colections-grid-section my-32 py-12 px-12 md:px-32">
-        <div className="collection-grid-container grid grid-cols-1  md:grid-cols-2 gap-16">
+      <div className="colections-grid-section my-32 py-12 px-12 lg:px-32">
+        <div className="collection-grid-container grid grid-cols-1  lg:grid-cols-2 gap-16">
           <CollectionCardLarge />
           <CollectionCardLarge />
           <CollectionCardLarge />

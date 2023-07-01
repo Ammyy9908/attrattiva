@@ -32,7 +32,7 @@ function contact() {
               </h1>
               <a
                 href="mailto:Designs@attrattiva.in"
-                className="text-[#bc933b] text-xl heading font-light"
+                className="text-[#a5710080] text-xl heading font-light block mt-3"
               >
                 Designs@attrattiva.in
               </a>
@@ -43,7 +43,7 @@ function contact() {
               </h1>
               <a
                 href="mailto:Designs@attrattiva.in"
-                className="text-[#bc933b] text-xl heading font-light"
+                className="text-[#a5710080] text-xl heading font-light mt-3 block"
               >
                 9811029255
               </a>
@@ -54,7 +54,7 @@ function contact() {
               </h1>
               <p
                 href="mailto:Designs@attrattiva.in"
-                className="text-[#bc933b] text-xl heading font-light"
+                className="text-[#a5710080] text-xl heading font-light mt-3"
               >
                 9Interiors, Home Decor, Art & Bespoke FurnitureFactory Outlet &
                 Works:  Block I, C11, National Highway 24, South Side G.T Rd,
