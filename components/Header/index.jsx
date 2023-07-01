@@ -34,7 +34,7 @@ function Header() {
           </li>
           <li>
             <Link
-              href="/pages/about"
+              href="/why-us"
               className="uppercase text-xs text-black/50 hover:text-black"
             >
               Why Us?
@@ -182,7 +182,7 @@ function Header() {
               </Link>
             </li>
             <li className="w-full py-3 border-b">
-              <Link href={"/about"} className="text-black/50 hover:text-black">
+              <Link href={"/why-us"} className="text-black/50 hover:text-black">
                 Why Us?
               </Link>
             </li>
