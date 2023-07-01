@@ -28,14 +28,14 @@ function Collection() {
           </p>
         </div>
 
-        <div className="collecttions-top_list w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 py-32 px-12 lg:px-32">
+        <div className="collecttions-top_list w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 py-12 md:py-32 px-6 lg:px-32">
           <CollectionSmallCard thumb={"/images/0003_2-1024x808.jpg"} />
           <CollectionSmallCard thumb={"/images/0002-1024x724.jpg"} />
           <CollectionSmallCard thumb={"/images/1-78a-1024x683.jpg"} />
         </div>
       </div>
 
-      <div className="colections-grid-section my-32 py-12 px-12 lg:px-32">
+      <div className="colections-grid-section my-32 py-12 px-6 lg:px-32">
         <div className="collection-grid-container grid grid-cols-1  lg:grid-cols-2 gap-16">
           <CollectionCardLarge />
           <CollectionCardLarge />

@@ -62,7 +62,7 @@ export default function Home() {
         </Swiper>
       </div>
 
-      <section className="story-section py-32 px-12 lg:px-32">
+      <section className="story-section py-12 md:py-32 px-6 lg:px-32">
         <div className="story-section-container">
           <h2 className="text-2xl text-center">EXPERIENCE OUR STORES</h2>
           <div className="story-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 my-12">
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="inspiration-section px-12 lg:px-32 py-32 bg-[#FAF9F7]">
+      <section className="inspiration-section px-6 lg:px-32 py-12 md:py-32 bg-[#FAF9F7]">
         <div className="inspiration-container grid grid-cols-1 lg:grid-cols-2 gap-32">
           <div className="section--image">
             <img src="/images/attrattive_story.png" alt="inspiration-thumb" />
@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="gallery-section px-12 py-16 lg:px-32 lg:py-64 grid grid-cols-1 md:grid-cols-2 gap-32 md:gap-y-64">
+      <section className="gallery-section px-2 py-6 lg:px-32 lg:py-64 grid grid-cols-1 md:grid-cols-2 gap-32 md:gap-y-64 mb-64">
         <div className="gallery-small my-16">
           <div className="gallery-card w-full h-full">
             <img
