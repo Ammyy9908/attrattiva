@@ -87,8 +87,8 @@ export default function Home() {
       </section>
 
       <section className="inspiration-section px-6 lg:px-32 py-12 md:py-32 bg-[#FAF9F7]">
-        <div className="inspiration-container grid grid-cols-1 lg:grid-cols-2 gap-32">
-          <div className="section--image">
+        <div className="inspiration-container flex flex-col md:grid grid-cols-1 lg:grid-cols-2 gap-32">
+          <div className="section--image w-full flex items-center justify-center">
             <img src="/images/attrattive_story.png" alt="inspiration-thumb" />
           </div>
           <div className="inspiration-content text-center flex flex-col items-center gap-3 h-full  justify-center">
