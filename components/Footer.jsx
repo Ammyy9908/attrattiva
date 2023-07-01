@@ -20,7 +20,7 @@ function Footer() {
             <a href="#">Gift Cards</a>
           </li>
         </ul>
-        <ul className="text-sm text-black/50">
+        {/* <ul className="text-sm text-black/50">
           <li>
             <a href="#">Our Story</a>
           </li>
@@ -47,7 +47,7 @@ function Footer() {
           <li>
             <a href="#">Gift Cards</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="footer-newsletter col-span-1">
         <div className="footer-subscribe-form w-full">

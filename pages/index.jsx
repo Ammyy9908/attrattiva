@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
+import WhatsappButton from "@/components/Fab";
 
 export default function Home() {
   return (
@@ -203,6 +204,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <WhatsappButton />
       <Footer />
     </main>
   );
