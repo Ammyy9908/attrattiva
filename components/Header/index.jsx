@@ -5,7 +5,7 @@ function Header() {
   const [nav, setNav] = useState(false);
   return (
     <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 flex flex-col items-start shadow-xl">
-      <div className="header__top w-full text-center flex items-center justify-between md:block">
+      <div className="header__top w-full text-center flex items-center justify-between lg:block">
         <button
           className="w-8 h-8 hover:bg-black/10 lg:hidden flex items-center justify-center rounded-full"
           onClick={() => {
