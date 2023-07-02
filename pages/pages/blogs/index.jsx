@@ -3,6 +3,7 @@ import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
+import blogs from "@/data/blogs";
 
 function Blogs() {
   return (
@@ -19,10 +20,17 @@ function Blogs() {
 
       <div className="blogs--container  bg-[#faf9f7] ">
         <div className="lg:px-32 py-16 grid grid-cols-1 md:grid-cols-2 gap-16 w-[95%] md:w-[85%] mx-auto">
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+          {blogs.map((blog, Index) => {
+            return (
+              <BlogCard
+                key={Index}
+                title={blog.title}
+                thumbnail={blog.thumbnail}
+                slug={blog.slug}
+                description={blog.description}
+              />
+            );
+          })}
         </div>
       </div>
       <WhatsappButton />
