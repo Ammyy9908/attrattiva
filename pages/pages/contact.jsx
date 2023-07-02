@@ -1,11 +1,33 @@
 import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { NextSeo } from "next-seo";
 import React from "react";
 
 function contact() {
   return (
-    <div>
+    <main>
+      <NextSeo
+        title="For Luxury Furniture in Delhi | Contact: +919811029255"
+        description="We are the best Luxury furniture manufacturers in Delhi, Gurgaon. We also have Silver Artifacts in Delhi, Gurgaon. For more information contact us."
+        openGraph={{
+          type: "article",
+          locale: "en_IE",
+          url: "https://attrattiva.vercel.app",
+          site_name: "Attrattiva - Luxury Furniture",
+          title: "For Luxury Furniture in Delhi | Contact: +919811029255",
+          description:
+            "We are the best Luxury furniture manufacturers in Delhi, Gurgaon. We also have Silver Artifacts in Delhi, Gurgaon. For more information contact us.",
+        }}
+        twitter={{
+          handle: "@handle",
+          title: "For Luxury Furniture in Delhi | Contact: +919811029255",
+          site: "@site",
+          cardType: "summary",
+          description:
+            "We are the best Luxury furniture manufacturers in Delhi, Gurgaon. We also have Silver Artifacts in Delhi, Gurgaon. For more information contact us.",
+        }}
+      />
       <Header activePage={5} />
       <div className="w-full h-[385px] md:h-[578px] bg-[#ece9e6]/50 flex items-center justify-center">
         <div className="text-center">
@@ -67,7 +89,7 @@ function contact() {
       </div>
       <WhatsappButton />
       <Footer />
-    </div>
+    </main>
   );
 }
 

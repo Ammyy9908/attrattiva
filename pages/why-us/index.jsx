@@ -1,6 +1,7 @@
 import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { NextSeo } from "next-seo";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -24,6 +25,23 @@ function FeatureCard({ title, description }) {
 function WhyUs() {
   return (
     <main className="w-full">
+      <NextSeo
+        title="Attrativa interior solution - Attrattiva"
+        description="Attrattiva has great collection of luxury furniture, silver furniture, bone inlay furniture, tanjore painting. we have showrooms in Delhi | Noida | Gurugram"
+        openGraph={{
+          type: "article",
+          locale: "en_IE",
+          url: "https://attrattiva.vercel.app",
+          site_name: "Attrattiva - Luxury Furniture",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+        }}
+        twitter={{
+          handle: "@handle",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+          site: "@site",
+          cardType: "summary",
+        }}
+      />
       <Header activePage={1} />
       <div className="why-us-section mt-32 py-16 md:py-32 px-6  md:px-12 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div className="why-us-section-gallery">

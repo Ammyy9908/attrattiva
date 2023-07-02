@@ -1,11 +1,29 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import React from "react";
 
 function Story() {
   return (
-    <div className="h-screen">
+    <main className="h-screen">
+      <NextSeo
+        title="Best Home Decor, Furniture Showroom in Delhi, Noida, Gurgaon - Attrattiva"
+        description="We have the best Bespoke Furniture Showroom in Delhi, Noida and Gurgaon. Our products include Silver Artefacts, Semi-precious stone furniture, Marble God Statue, Bone inlay furniture, Gold Furniture, Tanjore paintings, etc."
+        openGraph={{
+          type: "article",
+          locale: "en_IE",
+          url: "https://attrattiva.vercel.app",
+          site_name: "Attrattiva - Luxury Furniture",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+        }}
+        twitter={{
+          handle: "@handle",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+          site: "@site",
+          cardType: "summary",
+        }}
+      />
       <Header activePage={2} />
       <div className="story__top__section py-32 px-6 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-32 md-16 md:mt-32">
         <img src="/images/attrattive_story.png" alt="story__hero__image" />
@@ -84,7 +102,7 @@ function Story() {
         </div>
       </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

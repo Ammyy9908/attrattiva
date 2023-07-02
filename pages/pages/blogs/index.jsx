@@ -4,10 +4,28 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
 import blogs from "@/data/blogs";
+import { NextSeo } from "next-seo";
 
 function Blogs() {
   return (
-    <div>
+    <main>
+      <NextSeo
+        title="Best Home Luxury Furniture Showroom in Delhi- ATTRATTIVA"
+        description="We have a range of Luxury Sofa Set, Tanjore Paintings, Silver bed, Silver Artifacts &amp; Furniture, Luxury Bed, Luxury Furniture, Luxury Dining Table."
+        openGraph={{
+          type: "article",
+          locale: "en_IE",
+          url: "https://attrattiva.vercel.app",
+          site_name: "Attrattiva - Luxury Furniture",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+        }}
+        twitter={{
+          handle: "@handle",
+          title: "Luxury Furniture Showroom Delhi | Gurgaon - Attrattiva",
+          site: "@site",
+          cardType: "summary",
+        }}
+      />
       <Header activePage={4} />
       <div
         className="page-hero-section h-[540px] w-full flex items-center justify-center"
@@ -35,7 +53,7 @@ function Blogs() {
       </div>
       <WhatsappButton />
       <Footer />
-    </div>
+    </main>
   );
 }
 
