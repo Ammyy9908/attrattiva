@@ -6,7 +6,7 @@ import React from "react";
 function contact() {
   return (
     <div>
-      <Header />
+      <Header activePage={5} />
       <div className="w-full h-[385px] md:h-[578px] bg-[#ece9e6]/50 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl heading font-light text-black/70">

@@ -7,7 +7,7 @@ import React from "react";
 function Blogs() {
   return (
     <div>
-      <Header />
+      <Header activePage={4} />
       <div
         className="page-hero-section h-[540px] w-full flex items-center justify-center"
         style={{

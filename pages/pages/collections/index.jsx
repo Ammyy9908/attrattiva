@@ -8,7 +8,7 @@ import React from "react";
 function Collection() {
   return (
     <div>
-      <Header />
+      <Header activePage={3} />
       <div
         className="collection--banner w-full h-[375px] md:h-[575px]"
         style={{

@@ -32,7 +32,7 @@ function FactItem({ Icon, title, description }) {
 export default function Home() {
   return (
     <main className="h-screen">
-      <Header />
+      <Header activePage={0} />
       <div className="home-hero-section w-full relative h-[475px] mt-16 lg:mt-32">
         <Swiper
           autoplay={{

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-function Header() {
+function Header({ activePage }) {
   const [nav, setNav] = useState(false);
   return (
     <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 flex flex-col items-start shadow-xl">
@@ -27,7 +27,9 @@ function Header() {
           <li>
             <Link
               href="/"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 0 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Home
             </Link>
@@ -35,7 +37,9 @@ function Header() {
           <li>
             <Link
               href="/why-us"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 1 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Why Us?
             </Link>
@@ -43,7 +47,9 @@ function Header() {
           <li>
             <Link
               href="/story"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 2 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Story
             </Link>
@@ -51,7 +57,9 @@ function Header() {
           <li className="relative group">
             <Link
               href="/pages/collections"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 3 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Collections
             </Link>
@@ -157,7 +165,9 @@ function Header() {
           <li>
             <Link
               href="/pages/blogs"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 4 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Blogs
             </Link>
@@ -165,7 +175,9 @@ function Header() {
           <li>
             <Link
               href="/pages/contact"
-              className="uppercase text-xs text-black/50 hover:text-[#c29538]"
+              className={`uppercase text-xs ${
+                activePage == 5 ? "text-[#c29538] font-bold" : "text-black/50"
+              } hover:text-[#c29538]`}
             >
               Contact
             </Link>

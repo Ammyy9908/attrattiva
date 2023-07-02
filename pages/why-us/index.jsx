@@ -24,7 +24,7 @@ function FeatureCard({ title, description }) {
 function WhyUs() {
   return (
     <main className="w-full">
-      <Header />
+      <Header activePage={1} />
       <div className="why-us-section mt-32 py-16 md:py-32 px-6  md:px-12 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div className="why-us-section-gallery">
           <img src="/images/artifacr100-985x1024.jpg" alt="pot" />
