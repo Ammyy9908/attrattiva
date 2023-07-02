@@ -3,6 +3,22 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
 import React from "react";
+import { BsPinMapFill } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
+
+function FormControl() {
+  return (
+    <div className="form-control w-full h-[48px] ">
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder=""
+        className="w-full h-full border-2 border-gray-700"
+      />
+    </div>
+  );
+}
 
 function contact() {
   return (
@@ -41,50 +57,70 @@ function contact() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12 md:mb-0">
-        <img
-          src="https://images.unsplash.com/photo-1633114594701-52002208270f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1010&q=80"
-          alt="red-sofa"
-          className="h-full object-cover hidden lg:block"
-        />
-        <div className="contact-info flex fex-col justify-center items-center py-16 px-16 md:py-32 md:px-32 lg:px-12 md:py-12">
-          <div className="flex flex-col items-center gap-12">
-            <div className="text-center">
-              <h1 className="uppercase text-sm leading-4 text-black/50">
-                EMAIL
-              </h1>
-              <a
-                href="mailto:Designs@attrattiva.in"
-                className="text-[#a5710080] text-xl heading font-light block mt-3"
-              >
-                Designs@attrattiva.in
-              </a>
+      <section className="py-16 px-6 md:px-16">
+        <h1 className="text-center text-xl md:text-2xl lg:text-3xl title">
+          WE INVITE YOU TO VISIT US AND GET A GLIMPSE INTO OUR EXQUISITE WORLD
+        </h1>
+        <div className="contact-bullet-points  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-12">
+          <div className="flex flex-col items-start gap-3">
+            <div className="point-icon text-4xl">
+              <BsPinMapFill />
             </div>
-            <div className="text-center">
-              <h1 className="uppercase text-sm leading-4 text-black/50">
-                PHONE
-              </h1>
-              <a
-                href="mailto:Designs@attrattiva.in"
-                className="text-[#a5710080] text-xl heading font-light mt-3 block"
-              >
-                9811029255
-              </a>
-            </div>
-            <div className="text-center">
-              <h1 className="uppercase text-sm leading-4 text-black/50">
-                ADDRESS
-              </h1>
-              <p
-                href="mailto:Designs@attrattiva.in"
-                className="text-[#a5710080] text-xl heading font-light mt-3"
-              >
-                9Interiors, Home Decor, Art & Bespoke FurnitureFactory Outlet &
-                Works:  Block I, C11, National Highway 24, South Side G.T Rd,
-                Ghaziabad, Uttar Pradesh 201009
-              </p>
+            <div className="point-content">
+              <h3 className="text-xl">WORKS & STUDIO</h3>
+              <p>C -11/1 South Of G.T. Road, Ghaziabad-201001, (U.P.) INDIA</p>
             </div>
           </div>
+          <div className="flex flex-col items-start gap-3">
+            <div className="point-icon text-4xl">
+              <BsPinMapFill />
+            </div>
+            <div className="point-content">
+              <h3 className="text-xl">
+                EXPERIENCE CENTRE (BY APPOINTMENT ONLY)
+              </h3>
+              <p>Pushp Villa, B-338, New Friends Colony, New Delhi-110025</p>
+            </div>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <div className="point-icon text-4xl">
+              <FaMobileAlt />
+            </div>
+            <div className="point-content">
+              <h3 className="text-xl">+91-9811029255</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12 md:mb-0 px-6 md:px-16 py-16">
+        <div className="contact__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28032.262869985865!2d77.27422!3d28.568776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1fc43b1b6489%3A0xe1bb2b4739de98de!2sATTRATTIVA%20(%20Interior-%20Furniture-%20Home%20D%C3%A9cor-%20Art%20%2C%20By%20Appointment%20Only%20)!5e0!3m2!1sen!2sin!4v1688291335110!5m2!1sen!2sin"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            className="w-full"
+          ></iframe>
+        </div>
+        <div className="contact-info">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl title">
+            Get In Touch With Us
+          </h1>
+          <form action="" className="w-full grid grid-cols-1 gap-3 mt-6">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+              <FormControl />
+              <FormControl />
+            </div>
+            <FormControl />
+            <FormControl />
+            <input
+              type="submit"
+              value="SEND MESSAGE"
+              className="w-full h-[48px] bg-yellow-600 text-white"
+            />
+          </form>
         </div>
       </div>
       <WhatsappButton />
