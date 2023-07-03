@@ -189,14 +189,21 @@ function Header({ activePage }) {
         <div className="mobile__nav w-full lg:hidden">
           <ul className="w-full flex flex-col items-start">
             <li className="w-full py-3  border-b">
-              <Link href={"/"} className="text-black/50 hover:text-[#c29538]">
+              <Link
+                href={"/"}
+                className={`uppercase text-xs ${
+                  activePage == 0 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
+              >
                 Home
               </Link>
             </li>
             <li className="w-full py-3 border-b">
               <Link
                 href={"/why-us"}
-                className="text-black/50 hover:text-[#c29538]"
+                className={`uppercase text-xs ${
+                  activePage == 1 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
               >
                 Why Us?
               </Link>
@@ -204,7 +211,9 @@ function Header({ activePage }) {
             <li className="w-full py-3 border-b">
               <Link
                 href={"/story"}
-                className="text-black/50 hover:text-[#c29538]"
+                className={`uppercase text-xs ${
+                  activePage == 2 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
               >
                 Story
               </Link>
@@ -212,7 +221,9 @@ function Header({ activePage }) {
             <li className="w-full py-3 border-b">
               <Link
                 href={"/pages/collections"}
-                className="text-black/50 hover:text-[#c29538]"
+                className={`uppercase text-xs ${
+                  activePage == 3 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
               >
                 Collections
               </Link>
@@ -220,9 +231,22 @@ function Header({ activePage }) {
             <li className="w-full py-3 border-b">
               <Link
                 href={"/pages/blogs"}
-                className="text-black/50 hover:text-[#c29538]"
+                className={`uppercase text-xs ${
+                  activePage == 4 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
               >
                 Blogs
+              </Link>
+            </li>
+
+            <li className="w-full py-3 border-b">
+              <Link
+                href="/pages/contact"
+                className={`uppercase text-xs ${
+                  activePage == 5 ? "text-[#c29538] font-bold" : "text-black/50"
+                } hover:text-[#c29538]`}
+              >
+                Contact
               </Link>
             </li>
           </ul>

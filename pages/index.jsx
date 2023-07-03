@@ -152,7 +152,12 @@ export default function Home() {
 
       <section className="story-section py-12 md:py-32 px-6 lg:px-32">
         <div className="story-section-container">
-          <h2 className="text-2xl text-center title">EXPERIENCE OUR STORES</h2>
+          <div className="md:col-span-1 flex flex-col items-center">
+            <h2 className="text-2xl text-center title">
+              EXPERIENCE OUR STORES
+            </h2>
+            <img src="/images/border.png" alt="gold-border-icon" />
+          </div>
           <div className="story-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 my-12">
             {colllections.map((collection, index) => {
               return (
@@ -290,6 +295,14 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </section>
+
+      <section className="contact-banner-home w-full">
+        <img
+          src="/images/BAnner1.jpg"
+          alt="contact-banner"
+          className="w-full"
+        />
       </section>
       <WhatsappButton />
       <Footer />
