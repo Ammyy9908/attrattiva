@@ -45,7 +45,11 @@ function WhyUs() {
       <Header activePage={1} />
       <div className="why-us-section mt-32 py-16 md:py-32 px-6  md:px-12 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div className="why-us-section-gallery">
-          <img src="/images/artifacr100-985x1024.jpg" alt="pot" />
+          <img
+            src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=927&q=80"
+            alt="pot"
+            className="lg:h-full w-full h-[305px] object-cover"
+          />
         </div>
         <div className="why-us-section-text-content">
           <h1 className="text-4xl title">Why Us?</h1>

@@ -6,15 +6,15 @@ import React from "react";
 import { BsPinMapFill } from "react-icons/bs";
 import { FaMobileAlt } from "react-icons/fa";
 
-function FormControl() {
+function FormControl({ placeholder, name, type }) {
   return (
     <div className="form-control w-full h-[48px] ">
       <input
         type="text"
-        name="name"
-        id="name"
-        placeholder=""
-        className="w-full h-full border-2 border-gray-700"
+        name={name}
+        id={type}
+        placeholder={placeholder}
+        className="w-full h-full border border-gray-700 px-2"
       />
     </div>
   );
@@ -45,12 +45,12 @@ function contact() {
         }}
       />
       <Header activePage={5} />
-      <div className="w-full h-[385px] md:h-[578px] bg-[#ece9e6]/50 flex items-center justify-center">
+      <div className="w-full h-[385px] md:h-[578px] bg-[#e7ab33ac] flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-3xl md:text-5xl heading font-light text-black/70">
+          <h1 className="text-3xl md:text-5xl heading font-light text-white/70">
             Let`s Chat
           </h1>
-          <p className="mt-6 text-sm text-black/50 max-w-[395px]">
+          <p className="mt-6 text-sm text-white/90 max-w-[395px]">
             Whether it’s help with an order, a question about our quality, or
             some design advice, we always love hearing from you.
           </p>
@@ -110,16 +110,31 @@ function contact() {
           </h1>
           <form action="" className="w-full grid grid-cols-1 gap-3 mt-6">
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
-              <FormControl />
-              <FormControl />
+              <FormControl name="name" placeholder={"Name"} type={"text"} />
+              <FormControl name="phone" placeholder={"Phone"} type={"text"} />
             </div>
-            <FormControl />
-            <FormControl />
-            <input
-              type="submit"
-              value="SEND MESSAGE"
-              className="w-full h-[48px] bg-yellow-600 text-white"
+            <FormControl
+              name="email"
+              placeholder={"Your Email"}
+              type={"email"}
             />
+            <FormControl name="message" placeholder={"Message"} type={"text"} />
+            <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-3">
+              <input
+                type="submit"
+                value="SEND MESSAGE"
+                className="w-full h-[48px] bg-[#cf9e3bd5] text-white"
+              />
+              <div className="flex lg:flex-row flex-col items-center gap-6">
+                <a href="https://wa.me/919811029255">+919811029255</a>
+                <a
+                  href="https://youtube.com/@kashishaggarwal2532"
+                  className="font-bold"
+                >
+                  Visit Our Studio
+                </a>
+              </div>
+            </div>
           </form>
         </div>
       </div>

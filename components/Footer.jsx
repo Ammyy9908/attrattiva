@@ -14,7 +14,7 @@ function Footer() {
             <Link href="/" className="text-[#c29538] font-semibold">
               attrattiva
             </Link>{" "}
-            All rights reserved. Web Design By FSC India.
+            All rights reserved. Web Design By GrowthO.
           </p>
         </div>
         <div className="footer__address">
@@ -53,7 +53,7 @@ function Footer() {
           <ul className="flex items-center gap-2">
             <li>
               <a
-                href="#"
+                href="https://www.facebook.com/AttrattivaIndia/"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <FaFacebookSquare />
@@ -61,7 +61,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="https://www.instagram.com/attrattivaindia/?hl=en"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <GrInstagram />
@@ -69,7 +69,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href=""
+                href="https://www.linkedin.com/in/attrattiva-design-923056184/?originalSubdomain=in"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <FaLinkedin />
