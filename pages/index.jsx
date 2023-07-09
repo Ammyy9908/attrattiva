@@ -31,7 +31,7 @@ function FactItem({ Icon, title, description }) {
 }
 export default function Home() {
   return (
-    <main className="h-screen">
+    <main>
       <Header activePage={0} />
       <div className="home-hero-section w-full relative h-[475px] mt-16 lg:mt-32">
         <Swiper
@@ -77,14 +77,14 @@ export default function Home() {
         </Swiper>
       </div>
 
-      <div className="home-about-section px-6 sm:px-16 md:px-32 py-16 grid grid-cols-1 lg:grid-cols-3 gap-16">
+      <div className="home-about-section px-6 sm:px-16 md:px-32 py-16">
         <div className="about-header md:col-span-1 flex flex-col items-center">
           <h1 className="text-xl md:text-3xl title uppercase text-center">
             About ATTRATTIVA
           </h1>
           <img src="/images/border.png" alt="gold-border-icon" />
         </div>
-        <div className="about-section-content md:col-span-2">
+        <div className="about-section-content md:col-span-2 mt-12 text-center">
           <p className="text-black/50">
             <Link href={"/"} className="text-[#c29538]">
               Attrattiva
@@ -96,6 +96,9 @@ export default function Home() {
             <Link href={"/"} className="text-[#c29538]">
               Bespoke Furniture
             </Link>
+          </p>
+          <p className="text-black/50">
+            {" "}
             (wood & metal), Home décor and Art, Tanjore paintings, Modern art
             and paintings, Semi-Precious inlay work, God figures, Silver
             artefacts and furniture, Pichwai art and painting. We are also
@@ -111,7 +114,10 @@ export default function Home() {
             set you apart from the crowd. It isn’t just about uplifting the
             aesthetics of your space but crafting furniture that reflects your
             persona.
-          </p>
+          </p>{" "}
+          {/* <p className="text-black/50">
+           
+          </p> */}
         </div>
       </div>
 
@@ -192,32 +198,21 @@ export default function Home() {
                 collection of what you love. An intuitive eye for quality,
                 detail, and presentation, has always believed in pushing the
                 boundaries especially when it comes to redefining affordable
-                luxury interiors. Attrattiva is the leading name in the market
-                having experience of more than 40+ years who have gained huge
-                success by manufacturing, supplying and exporting an unmatched
-                and remarkable gamut of Luxury Products of Interior & Exterior
-                Designing. Our range of products includes Bespoke Furniture
-                (wood & metal), Home décor and Art, Tanjore paintings, Modern
-                art and paintings, Semi-Precious inlay work, God figures, Silver
-                artefacts and furniture, Pichwai art and painting. We are also
-                engaged in providing Interior solutions such as space planning.
-                In a short span of time, encouraged and backed by experienced
-                craftsmen we have created a niche market for ourselves and
-                completed several prestigious projects.
+                luxury interiors....
               </p>
 
               <Link
                 href="/story"
                 className="w-[190px] h-[48px] bg-[#ECE9E5] flex mx-auto items-center justify-center"
               >
-                Shop by Room
+                Read more
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="gallery-section px-2 py-6 lg:px-32 lg:py-64 block sm:grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-32 md:gap-y-64 mb-34 lg:mb-0">
+      <section className="gallery-section px-2 py-6 lg:px-32 lg:py-16 block sm:grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-32 md:gap-y-64 mb-34 lg:mb-0">
         <div className="gallery-small my-16">
           <div className="gallery-card w-full h-full">
             <img
@@ -297,12 +292,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="contact-banner-home w-full">
-        <img
-          src="/images/BAnner1.jpg"
-          alt="contact-banner"
-          className="w-full"
-        />
+      <section className="contact-banner-home w-full mt-32">
+        <Link href={"/pages/contact"}>
+          <img src="/images/BAnner1.jpg" alt="contact-banner" />
+        </Link>
       </section>
       <WhatsappButton />
       <Footer />

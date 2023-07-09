@@ -14,12 +14,12 @@ function Header({ activePage }) {
         >
           <RxHamburgerMenu />
         </button>
-        <a
-          href="#"
+        <Link
+          href="/"
           className="text-xl font-semibold md:text-3xl logo uppercase"
         >
           Attrattiva
-        </a>
+        </Link>
         <div></div>
       </div>
       <div className="header__nav px-64 w-full mt-3 hidden lg:block">
