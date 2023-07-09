@@ -294,7 +294,11 @@ export default function Home() {
 
       <section className="contact-banner-home w-full mt-32">
         <Link href={"/pages/contact"}>
-          <img src="/images/BAnner1.jpg" alt="contact-banner" />
+          <img
+            src="/images/BAnner1.jpg"
+            alt="contact-banner"
+            className="w-full"
+          />
         </Link>
       </section>
       <WhatsappButton />
