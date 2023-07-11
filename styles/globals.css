@@ -44,3 +44,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #000;
   opacity: 1;
 }
+
+.sidebar-disable {
+  left: -1500px;
+}
+.sidebar-enable {
+  left: 0;
+}

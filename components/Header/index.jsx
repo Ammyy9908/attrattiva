@@ -1,28 +1,51 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Sidebar from "../Sidebar";
 function Header({ activePage }) {
   const [nav, setNav] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
   return (
-    <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 flex flex-col items-start">
-      <div className="header__top w-full text-center flex items-center justify-between lg:block">
-        <button
-          className="w-8 h-8 hover:bg-black/10 lg:hidden flex items-center justify-center rounded-full"
-          onClick={() => {
-            setNav(!nav);
-          }}
-        >
-          <RxHamburgerMenu />
-        </button>
+    <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 md:px-16 flex flex-col items-start">
+      <div className="header__top w-full text-center grid grid-cols-3 gap-16">
+        <div className="flex items-center gap-6">
+          <button
+            className="w-12 h-12 bg-black  rounded-full flex items-center justify-center"
+            onClick={() => {
+              setNav(!nav);
+              setSidebar(true);
+            }}
+          >
+            <RxHamburgerMenu className="text-white font-bold" />
+          </button>
+
+          {/* <ul className="flex items-center gap-3">
+            <li>
+              <a
+                href="#"
+                className="text-lg font-semibold text-black/50 hover:text-black transition-all"
+              >
+                Atrattiva Edition 1
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="text-lg font-semibold text-black/50 hover:text-black transition-all"
+              >
+                Atrattiva Edition 2
+              </a>
+            </li>
+          </ul> */}
+        </div>
         <Link
           href="/"
           className="text-xl font-semibold md:text-3xl logo uppercase"
         >
           Attrattiva
         </Link>
-        <div></div>
       </div>
-      <div className="header__nav px-64 w-full mt-3 hidden lg:block">
+      {/* <div className="header__nav px-64 w-full mt-3 hidden lg:block">
         <ul className="flex  w-full items-center justify-center gap-12">
           <li>
             <Link
@@ -183,9 +206,9 @@ function Header({ activePage }) {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
 
-      {nav && (
+      {/* {nav && (
         <div className="mobile__nav w-full lg:hidden">
           <ul className="w-full flex flex-col items-start">
             <li className="w-full py-3  border-b">
@@ -251,7 +274,9 @@ function Header({ activePage }) {
             </li>
           </ul>
         </div>
-      )}
+      )} */}
+
+      <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
     </div>
   );
 }

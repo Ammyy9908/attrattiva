@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function BlogCard({ title, thumbnail, description, slug }) {
@@ -18,12 +19,12 @@ function BlogCard({ title, thumbnail, description, slug }) {
             ? description.slice(0, 30) + "..."
             : description}
         </p>
-        <a
-          href="#"
+        <Link
+          href={`/pages/blogs/detail/${slug}`}
           className="text-[#8a6b28]  uppercase hover:underline mt-3 block"
         >
           Read more
-        </a>
+        </Link>
       </div>
     </div>
   );
