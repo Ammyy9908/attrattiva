@@ -36,7 +36,7 @@ export default function Home() {
       <Header activePage={0} />
 
       <div className="w-full">
-        {/* <div className="home_hero_section  xl:h-[768px] mt-32">
+        <div className="home_hero_section  xl:h-[768px] mt-32">
           <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-16 py-32">
             <div className="hero-component-b group relative cursor-pointer">
               <div
@@ -55,17 +55,19 @@ export default function Home() {
                     Made in India Luxury Design.
                   </p>
                 </div>
-                <div
-                  className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
-                  style={{ transitionDuration: "2s" }}
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
-                    alt=""
-                    className="w-full group-hover:scale-125 h-full object-cover transition-all"
+                <Link href={"/pages/collections"}>
+                  <div
+                    className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
                     style={{ transitionDuration: "2s" }}
-                  />
-                </div>
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+                      alt=""
+                      className="w-full group-hover:scale-125 h-full object-cover transition-all"
+                      style={{ transitionDuration: "2s" }}
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
             <div
@@ -88,22 +90,24 @@ export default function Home() {
                     Made in India Luxury Design.
                   </p>
                 </div>
-                <div
-                  className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
-                  style={{ transitionDuration: "2s" }}
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
-                    alt=""
-                    className="w-full group-hover:scale-125 h-full object-cover transition-all"
+                <Link href={"/pages/collections"}>
+                  <div
+                    className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
                     style={{ transitionDuration: "2s" }}
-                  />
-                </div>
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+                      alt=""
+                      className="w-full group-hover:scale-125 h-full object-cover transition-all"
+                      style={{ transitionDuration: "2s" }}
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
-        </div> */}
-        <div className="home-hero-section w-full relative h-[475px] mt-16 lg:mt-32">
+        </div>
+        {/* <div className="home-hero-section w-full relative h-[475px] mt-16 lg:mt-32">
           <Swiper
             autoplay={{
               delay: 2500,
@@ -145,7 +149,7 @@ export default function Home() {
               />
             </SwiperSlide>
           </Swiper>
-        </div>
+        </div> */}
 
         <div className="home-about-section px-6 sm:px-16 md:px-32 mt-12">
           <div className="about-header md:col-span-1 flex flex-col items-center">

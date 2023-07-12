@@ -2,11 +2,15 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Sidebar from "../Sidebar";
-function Header({ activePage }) {
+function Header({ activePage, transparent }) {
   const [nav, setNav] = useState(false);
   const [sidebar, setSidebar] = useState(false);
   return (
-    <div className="fixed top-0 w-full z-50 bg-white  py-6 px-6 md:px-16 flex flex-col items-start">
+    <div
+      className={`fixed top-0 w-full z-50 ${
+        transparent ? "bg-transparent" : "bg-white"
+      }  py-6 px-6 md:px-16 flex flex-col items-start`}
+    >
       <div className="header__top w-full text-center grid grid-cols-3 gap-16">
         <div className="flex items-center gap-6">
           <button

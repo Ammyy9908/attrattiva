@@ -36,7 +36,7 @@ function Sidebar({ sidebar, setSidebar }) {
             <Link href={"/story"}>Story</Link>
           </li>
           <li>
-            <Link href={"/"}>Collections</Link>
+            <Link href={"/pages/collections"}>Collections</Link>
           </li>
           <li>
             <Link href={"/why-us"}>Why Us?</Link>
