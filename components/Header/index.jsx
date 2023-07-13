@@ -11,10 +11,10 @@ function Header({ activePage, transparent }) {
         transparent ? "bg-transparent" : "bg-white"
       }  py-6 px-6 md:px-16 flex flex-col items-start`}
     >
-      <div className="header__top w-full text-center grid grid-cols-3 gap-16">
+      <div className="header__top w-full text-center grid grid-cols-3 gap-1 md:gap-16">
         <div className="flex items-center gap-6">
           <button
-            className="w-12 h-12 bg-black  rounded-full flex items-center justify-center"
+            className="w-8 h-8 md:w-12 md:h-12 bg-black  rounded-full flex items-center justify-center"
             onClick={() => {
               setNav(!nav);
               setSidebar(true);

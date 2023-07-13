@@ -21,14 +21,16 @@ function Sidebar({ sidebar, setSidebar }) {
             >
               <IoMdClose />
             </button>
-            <button
-              className="nav-close-btn w-12 h-12 bg-white text-black rounded-full flex items-center justify-center font-bold shadow-md"
-              onClick={() => {
-                setSidebar(false);
-              }}
-            >
-              <BiHomeCircle />
-            </button>
+            <Link href={"/"}>
+              <button
+                className="nav-close-btn w-12 h-12 bg-white text-black rounded-full flex items-center justify-center font-bold shadow-md"
+                onClick={() => {
+                  setSidebar(false);
+                }}
+              >
+                <BiHomeCircle />
+              </button>
+            </Link>
           </div>
         </div>
         <ul className="sidebar-nav mt-16 flex flex-col items-start gap-8 font-bold text-3xl">

@@ -6,7 +6,6 @@ import colllections from "@/data/collections";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { BsClock, BsFillBoxFill } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io";
-
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -49,19 +48,19 @@ export default function Home() {
                   style={{ transitionDuration: "2s" }}
                 >
                   <h3 className="edition-name text-xl w-full font-semibold z-20">
-                    Attrattive Edition 1
+                    Attrattiva
                   </h3>
                   <p className="text-4xl font-semibold">
                     Made in India Luxury Design.
                   </p>
                 </div>
-                <Link href={"/pages/collections"}>
+                <Link href={"/pages/edition/attrattiva"}>
                   <div
                     className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
                     style={{ transitionDuration: "2s" }}
                   >
                     <img
-                      src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+                      src="/images/attrattiva.jpg"
                       alt=""
                       className="w-full group-hover:scale-125 h-full object-cover transition-all"
                       style={{ transitionDuration: "2s" }}
@@ -84,19 +83,19 @@ export default function Home() {
                   style={{ transitionDuration: "2s" }}
                 >
                   <h3 className="edition-name text-xl w-full font-semibold ">
-                    Attrattive Edition 2
+                    Eleganza
                   </h3>
                   <p className="text-4xl font-semibold">
                     Made in India Luxury Design.
                   </p>
                 </div>
-                <Link href={"/pages/collections"}>
+                <Link href={"/pages/edition/eleganza"}>
                   <div
                     className="hero-component-image w-[350px] h-[465px] group-hover:scale-110 overflow-hidden transition-all"
                     style={{ transitionDuration: "2s" }}
                   >
                     <img
-                      src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+                      src="/images/elegance.jpg"
                       alt=""
                       className="w-full group-hover:scale-125 h-full object-cover transition-all"
                       style={{ transitionDuration: "2s" }}
