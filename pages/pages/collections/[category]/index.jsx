@@ -55,7 +55,7 @@ function Collection() {
       console.log("Filtered Varient is", filteredVarient);
       setCollection(filteredVarient[0]);
     }
-  }, [router, router.isReady, parent]);
+  }, [router, router.isReady]);
   return (
     <div>
       <div
