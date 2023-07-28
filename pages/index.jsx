@@ -2,7 +2,10 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import StoryCard from "@/components/StoryCard";
 import { Inter } from "next/font/google";
-import colllections from "@/data/collections";
+import {
+  elegance_collection,
+  attrattive_colllections,
+} from "@/data/collections";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { BsClock, BsFillBoxFill } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io";
@@ -95,7 +98,7 @@ export default function Home() {
                     style={{ transitionDuration: "2s" }}
                   >
                     <img
-                      src="/images/elegance.jpg"
+                      src="/images/elegance/bedroom/1.png"
                       alt=""
                       className="w-full group-hover:scale-125 h-full object-cover transition-all"
                       style={{ transitionDuration: "2s" }}
@@ -238,7 +241,7 @@ export default function Home() {
               <img src="/images/border.png" alt="gold-border-icon" />
             </div>
             <div className="story-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 my-12">
-              {colllections.map((collection, index) => {
+              {attrattive_colllections.map((collection, index) => {
                 return (
                   <StoryCard
                     key={index}

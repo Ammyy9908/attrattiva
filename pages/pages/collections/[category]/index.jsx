@@ -6,7 +6,10 @@ import Header from "@/components/Header";
 import SmallAlbumCard from "@/components/SmallCard";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import collections from "@/data/collections";
+import {
+  elegance_collection,
+  attrattive_colllections,
+} from "@/data/collections";
 
 function ImageCard({ image }) {
   return (
@@ -32,16 +35,27 @@ function Collection() {
   useEffect(() => {
     if (router.isReady) {
       const { query } = router;
-      const { category } = query;
+      const { category, parent } = query;
+
+      console.log(query);
 
       console.log("Category Id is", category);
+      console.log("Parent Id is", parent);
 
-      const filteredVarient = collections.filter((c) => c.slug == category);
+      let filteredVarient = [];
+      if (parent == "eleganza") {
+        console.log("Inside eleganza", parent);
+        filteredVarient = elegance_collection.filter((c) => c.slug == category);
+      } else {
+        filteredVarient = attrattive_colllections.filter(
+          (c) => c.slug == category
+        );
+      }
 
       console.log("Filtered Varient is", filteredVarient);
       setCollection(filteredVarient[0]);
     }
-  }, [router, router.isReady]);
+  }, [router, router.isReady, parent]);
   return (
     <div>
       <div

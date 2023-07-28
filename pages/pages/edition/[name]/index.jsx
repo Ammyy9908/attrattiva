@@ -16,15 +16,15 @@ function Collection() {
     if (router.isReady) {
       const { query } = router;
       const { name } = query;
-
       console.log("Category Id is", name);
-
       const filteredVarient = variants.filter((v) => v.name == name);
 
       console.log("Filtered Varient is", filteredVarient);
       setVariant(filteredVarient[0]);
     }
   }, [router, router.isReady]);
+
+  console.log("Varient", variant);
   return (
     <div>
       <div
@@ -62,7 +62,13 @@ function Collection() {
           {variant && (
             <div className="collections-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
               {variant.items.map((item, index) => {
-                return <SmallAlbumCard key={index} item={item} />;
+                return (
+                  <SmallAlbumCard
+                    key={index}
+                    item={item}
+                    variant={variant.name}
+                  />
+                );
               })}
             </div>
           )}
