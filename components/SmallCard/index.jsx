@@ -5,7 +5,7 @@ function SmallAlbumCard({ item, variant }) {
   console.log("Variant", variant);
   return (
     <div className="small-collection-card w-full group cursor-pointer">
-      <Link href={`/pages/collections/${item.slug}?parent=${variant}`}>
+      <Link href={`/pages/variants/${item.slug}?parent=${variant}`}>
         <div className="small-collection-card-image w-full h-[375px] overflow-hidden">
           <img
             src={item.thumbnail}

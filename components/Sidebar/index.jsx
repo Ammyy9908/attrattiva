@@ -10,7 +10,7 @@ function Sidebar({ sidebar, setSidebar }) {
       } fixed  z-50 grid md:grid-cols-2 h-full top-0 w-full`}
       style={{ transitionDuration: "1.5s" }}
     >
-      <div className="sidebar-main col-span-1 bg-[#faf4e4] py-16 px-16">
+      <div className="sidebar-main col-span-1 bg-[#faf4e4]/50 py-16 px-16 backdrop-blur-md">
         <div className="sidebar-header ">
           <div className="flex items-center gap-12">
             <button
@@ -21,16 +21,6 @@ function Sidebar({ sidebar, setSidebar }) {
             >
               <IoMdClose />
             </button>
-            <Link href={"/"}>
-              <button
-                className="nav-close-btn w-12 h-12 bg-white text-black rounded-full flex items-center justify-center font-bold shadow-md"
-                onClick={() => {
-                  setSidebar(false);
-                }}
-              >
-                <BiHomeCircle />
-              </button>
-            </Link>
           </div>
         </div>
         <ul className="sidebar-nav mt-16 flex flex-col items-start gap-8 font-bold text-3xl">
@@ -52,7 +42,7 @@ function Sidebar({ sidebar, setSidebar }) {
         </ul>
         <div className="sidebar-footer"></div>
       </div>
-      <div className="sidebar-overlay bg-black/50 backdrop-blur-md col-span-1 hidden md:block"></div>
+      {/* <div className="sidebar-overlay bg-black/50 backdrop-blur-md col-span-1 hidden md:block"></div> */}
     </div>
   );
 }

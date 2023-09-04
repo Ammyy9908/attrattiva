@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import {
   elegance_collection,
   attrattive_colllections,
-} from "@/data/collections";
+} from "@/data/edition_collections";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { BsClock, BsFillBoxFill } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io";
