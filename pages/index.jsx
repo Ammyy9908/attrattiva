@@ -21,6 +21,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import WhatsappButton from "@/components/Fab";
 import Sidebar from "@/components/Sidebar";
+import { colllections } from "@/data/collections";
 
 function FactItem({ Icon, title, description }) {
   return (
@@ -236,28 +237,28 @@ export default function Home() {
           <div className="story-section-container">
             <div className="md:col-span-1 flex flex-col items-center">
               <h2 className="text-2xl text-center title">
-                EXPERIENCE OUR STORES
+                EXPERIENCE OUR COLLECTIONS
               </h2>
               <img src="/images/border.png" alt="gold-border-icon" />
             </div>
             <div className="story-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 my-12">
-              {attrattive_colllections.map((collection, index) => {
+              {colllections.slice(0, 9).map((collection, index) => {
                 return (
                   <StoryCard
                     key={index}
-                    image={collection.images[0]}
+                    image={collection.cover}
                     title={collection.title}
                     description={collection.description}
                   />
                 );
               })}
             </div>
-            <a
-              href="#"
+            <Link
+              href="/pages/collections"
               className="w-[170px] mx-auto h-[48px] flex items-center justify-center  border-2 border-black"
             >
               Explore
-            </a>
+            </Link>
           </div>
         </section>
 

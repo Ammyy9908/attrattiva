@@ -19,7 +19,7 @@ function StoryCard({ image, title, description }) {
             alt=""
             className="w-full h-full object-cover group-hover:scale-125 transition-all"
           />
-          <h2 className="hidden group-hover:block absolute -translate-x-[50%] top-[50%] left-[50%] text-white text-sm md:text-xl z-20">
+          <h2 className="hidden group-hover:block absolute -translate-x-[50%] -translate-y-[50%]  top-[50%] left-[50%] text-white text-sm md:text-xl z-20">
             {title}
           </h2>
           <div className="story-card-overlay absolute w-full h-full group-hover:bg-black/20 inset-0 z-10 transition-all"></div>

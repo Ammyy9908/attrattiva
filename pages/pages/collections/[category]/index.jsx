@@ -1,110 +1,62 @@
-import CollectionSmallCard from "@/components/CollectionCard";
-import CollectionCardLarge from "@/components/ColllectionCardLarge";
-import WhatsappButton from "@/components/Fab";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import SmallAlbumCard from "@/components/SmallCard";
 import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import {
-  elegance_collection,
-  attrattive_colllections,
-} from "@/data/collections";
+import React, { useEffect } from "react";
+import { colllections } from "@/data/collections";
+import Footer from "@/components/Footer";
 
-function ImageCard({ image }) {
+function CollectionGalleryBlock({ file_path, alt }) {
   return (
-    <div className="small-collection-card w-full group cursor-pointer">
-      <div className="small-collection-card-image w-full h-[375px] overflow-hidden">
-        <img
-          src={image}
-          alt="collection-card"
-          className="h-full w-full object-cover group-hover:scale-110 transition-all"
-          style={{
-            transitionDuration: ".8s",
-          }}
-        />
-      </div>
+    <div className="collection-block-gallery">
+      <img src={file_path} alt={alt} />
     </div>
   );
 }
 
-function Collection() {
+function CategoryPage() {
+  const [cat, setCategory] = React.useState(null);
   const router = useRouter();
-  const [collection, setCollection] = useState(null);
 
   useEffect(() => {
-    if (router.isReady) {
-      const { query } = router;
-      const { category, parent } = query;
+    //i need to get category from the router using useRouter
+    //then i need to set the category state
+    //then i need to fetch the data from the api
+    //then i need to render the data
 
-      console.log(query);
+    //get category from the router
+    const { category } = router.query;
 
-      console.log("Category Id is", category);
-      console.log("Parent Id is", parent);
-
-      let filteredVarient = [];
-      if (parent == "eleganza") {
-        console.log("Inside eleganza", parent);
-        filteredVarient = elegance_collection.filter((c) => c.slug == category);
-      } else {
-        filteredVarient = attrattive_colllections.filter(
-          (c) => c.slug == category
-        );
-      }
-
-      console.log("Filtered Varient is", filteredVarient);
-      setCollection(filteredVarient[0]);
+    //set the category state
+    if (category) {
+      const filteredCollection = colllections.filter((c) => c.slug == category);
+      console.log(filteredCollection);
+      setCategory(filteredCollection[0]);
     }
-  }, [router, router.isReady]);
+  }, [router.query]);
   return (
-    <div>
-      <div
-        className="collection-full-screen-hero w-full h-[465px] lg:h-[798px] relative"
-        style={{
-          backgroundImage: `url("${collection && collection.cover}")`,
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-        }}
-      >
-        <div className="hero-overlay absolute w-full h-full bg-yellow-700/30"></div>
-        <Header activePage={3} transparent={true} />
-        <div className="collection-hero-content absolute inset-0 w-full h-full flex items-center justify-center">
-          <div className="flex flex-col items-center gap-8">
-            <h1 className="text-4xl  sm:text-6xl lg:text-8xl text-white">
-              {collection && collection.title}
-            </h1>
-            <a
-              href="#gallery"
-              className="px-2 py-3 flex items-center justify-center bg-black text-white rounded-full w-[190px]"
-            >
-              Explore
-            </a>
-          </div>
+    <main>
+      <Header transparent={false} />
+      <div className="category-details my-32 px-6 md:px-16">
+        <h3 className="text-5xl">{cat && cat["title"]}</h3>
+        <p className="w-[375px] md:w-[75%] mt-3 text-xl text-black/70">
+          {cat && cat["description"]}
+        </p>
+
+        <div className="collections gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-12">
+          {cat &&
+            cat.images.map((image, imageIndex) => {
+              return (
+                <CollectionGalleryBlock
+                  file_path={image}
+                  alt={"Collection Image " + (imageIndex + 1)}
+                  key={imageIndex}
+                />
+              );
+            })}
         </div>
       </div>
-      <section
-        className="collections-section py-16 md:py-32 px-6 md:px-16"
-        id="gallery"
-      >
-        <div className="collection-container">
-          <h1 className="text-center text-2xl md:text-3xl lg:text-5xl font-light">
-            Explore the Gallery
-          </h1>
-
-          {collection && (
-            <div className="collections-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-              {collection.images.map((item, index) => {
-                return <ImageCard key={index} image={item} />;
-              })}
-            </div>
-          )}
-        </div>
-      </section>
-
-      <WhatsappButton />
       <Footer />
-    </div>
+    </main>
   );
 }
 
-export default Collection;
+export default CategoryPage;
