@@ -43,7 +43,7 @@ function Collections() {
   return (
     <main className="w-ful h-screen">
       <Header activePage={3} transparent={false} />
-      <div className="header mt-32 px-6 md:px-16">
+      <div className="header mt-64 px-6 md:px-16">
         <h1 className="text-3xl md:text-4xl lg:text-6xl">
           Explore our Collections
         </h1>

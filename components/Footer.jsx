@@ -22,6 +22,11 @@ function Footer() {
             WORKS & STUDIO: C -11/1 South Of G.T. Road, Ghaziabad-201001, (U.P.)
             INDIA
           </p>
+          <br />
+          <p>
+            B 338 New, Friends Colony East, New Friends Colony, New Delhi, Delhi
+            110025
+          </p>
         </div>
       </div>
       <div className="footer-newsletter col-span-1">
@@ -67,14 +72,14 @@ function Footer() {
                 <GrInstagram />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.linkedin.com/in/attrattiva-design-923056184/?originalSubdomain=in"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <FaLinkedin />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

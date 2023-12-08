@@ -10,7 +10,7 @@ function Sidebar({ sidebar, setSidebar }) {
       } fixed  z-50 grid md:grid-cols-2 h-full top-0 w-full`}
       style={{ transitionDuration: "1.5s" }}
     >
-      <div className="sidebar-main col-span-1 bg-[#faf4e4]/50 py-16 px-16 backdrop-blur-md">
+      <div className="sidebar-main col-span-1 bg-[#faf4e4]/50 py-6 px-16 backdrop-blur-md">
         <div className="sidebar-header ">
           <div className="flex items-center gap-12">
             <button

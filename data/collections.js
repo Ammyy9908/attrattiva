@@ -131,17 +131,8 @@ const colllections = [
   },
   {
     id: 5,
-    slug: "semiprecious-inlay-work",
-    title: "Semiprecious Inlay Work",
-    cover: "/images/semi-precious-1.jpeg",
-    description:
-      "Pietra dura is the main term for the inlay technique of using cut and fitted, highly polished coloured stones to create beautiful images. It is considered a decorative art. Our semi-precious inlay work depicts excellent craftsmanship that is difficult to trace elsewhere.",
-    images: ["/images/cat5/1.jpeg", "/images/cat5/2.jpeg"],
-  },
-  {
-    id: 6,
-    slug: "god-statues",
-    title: "God Statues",
+    slug: "god-sculptures",
+    title: "God Sculptures",
     cover: "/images/WhatsApp-Image-2021-03-23-at-10.46.13-AM-1-2-550x550.jpeg",
     description:
       "Attrattiva is the leading manufacture and supplier of God figures. We offer all our clients the God Figures in a wide range of materials such as wood, resin, metal, stone and silver",
@@ -166,7 +157,7 @@ const colllections = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     slug: "silver-artifacts",
     cover: "/images/silverfurniture-550x550.jpg",
     title: "Silver Artifacts",
@@ -175,13 +166,12 @@ const colllections = [
     images: [
       "/images/cat7/1.jpeg",
       "/images/cat7/2.jpeg",
-      "/images/cat7/3.jpeg",
       "/images/cat7/4.jpeg",
       "/images/cat7/5.jpeg",
     ],
   },
   {
-    id: 8,
+    id: 7,
     slug: "pichwai-arts-paintings",
     cover: "/images/Pichwai-550x550.jpg",
     title: "Pichwai Arts & Paintings",
@@ -190,7 +180,7 @@ const colllections = [
     images: ["/images/cat8/1.jpeg", "/images/cat8/2.jpeg"],
   },
   {
-    id: 9,
+    id: 8,
     slug: "interior-solutions",
     cover: "/images/1-1-550x550.jpeg",
     title: "Interior Solutions",
@@ -208,7 +198,7 @@ const colllections = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     slug: "gold-furnitures",
     cover: "/images/IMG-20170621-WA0003-1-550x550.jpg",
     title: "Gold Furnitures",
@@ -225,20 +215,22 @@ const colllections = [
     ],
   },
   {
-    id: 11,
-    slug: "boney-inlay-furniture",
+    id: 10,
+    slug: "boney-and-semiprecious-inlay-furniture",
     cover: "/images/IMG-20171117-WA0000-550x550.jpg",
-    title: "Boney Inlay Furniture",
+    title: "Boney Inlay Furniture & Semiprecious Inlay Work",
     description:
       "Bone Inlay refers to an ancient technique that involves the laying of delicate hand-carved pieces of bone into the surface of an object. The result makes for a beautiful pattern of contrasting colours and materials that add a touch of aesthetic appeal to any room.",
     images: [
       "/images/cat11/1.jpeg",
       "/images/cat11/2.jpeg",
       "/images/cat11/3.jpeg",
+      "/images/cat5/1.jpeg",
+      "/images/cat5/2.jpeg",
     ],
   },
   {
-    id: 12,
+    id: 11,
     slug: "murano-arts",
     cover: "/images/morrano-550x550.jpg",
     title: "Murano Arts",
