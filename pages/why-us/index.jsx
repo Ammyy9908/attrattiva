@@ -43,12 +43,12 @@ function WhyUs() {
         }}
       />
       <Header activePage={1} />
-      <div className="why-us-section mt-32 py-16 md:py-32 px-6  md:px-12 grid grid-cols-1 md:grid-cols-2 gap-16">
+      <div className="why-us-section mt-32 py-16 md:py-32 px-6  md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16">
         <div className="why-us-section-gallery">
           <img
-            src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=927&q=80"
+            src="/images/why-us.png"
             alt="pot"
-            className="lg:h-full w-full h-[305px] object-cover"
+            className="lg:h-full w-full  object-cover"
           />
         </div>
         <div className="why-us-section-text-content">
@@ -114,6 +114,55 @@ HIGH QUALITY "
                 "At, Attrattiva we ensure to provide quality advice and suggestions suited to our clients specifications and budget. Our expertise lies in the blend of rich quality materials, with each one standing out."
               }
             />
+          </div>
+        </div>
+      </div>
+      <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-16">
+        <h2 className="text-3xl md:text-5xl text-center">Our Founders</h2>
+        <div className="flex flex-col w-full items-start gap-32">
+          <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16">
+            <div className="col-span-3">
+              <p className="text-xl">
+                Meet our founder, a seasoned Business Administration
+                professional who discovered his true calling while building his
+                dream home. Decades of factory floor experience, collaborating
+                with skilled artisans, fueled his passion for furniture
+                manufacturing. From this journey emerged a commitment to blend
+                comfort and luxury in every home. &quot;Your comfort is our
+                duty&quot; is not just a mission; it`s a philosophy ingrained in
+                our founder`s vision. Welcome to a world where passion meets
+                craftsmanship, and your home`s comfort is our utmost priority.
+              </p>
+            </div>
+            <div className="col-span-3">
+              <img
+                src="/images/founders/founder.png"
+                alt="founder-attrrattiva"
+              />
+            </div>
+          </div>
+          <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16">
+            <div className="col-span-3 w-full lg:h-[675px]">
+              <img
+                src="/images/founders/co-founder.jpg"
+                alt="co-founder-attrattiva"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="col-span-3">
+              <p className="text-xl">
+                Meet one of our Co-Founders – a full-time problem solver and the
+                backbone of our team. He`s like the calm captain steering our
+                ship, making sure everything runs smoothly and we deliver
+                top-notch quality to our clients. At 45, he started this
+                exciting journey with us, bringing loads of passion, hard work,
+                and creativity. He`s not just a boss; he`s the kind of leader
+                who personally checks every piece of furniture to ensure it`s
+                perfect. His energy and encouragement motivate everyone in our
+                Attrattiva family to learn and grow every day. Cheers to the
+                heart and soul of our team!
+              </p>
+            </div>
           </div>
         </div>
       </div>
