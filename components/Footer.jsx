@@ -29,31 +29,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="footer-newsletter col-span-1">
-        {/* <div className="footer-subscribe-form w-full">
-          <form action="" className="w-full">
-            <div className="form-control flex flex-col md:flex-row items-start gap-4">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email"
-                className="py-3 px-2 w-full"
-              />
-              <button
-                type="submit"
-                className="bg-[#707070] px-3 py-3 text-white w-full"
-              >
-                Sign Up
-              </button>
-            </div>
-          </form>
-          <p>
-            Receive exclusive access to new arrivals and updates on our
-            design-driven, handcrafted collection.
-          </p>
-        </div> */}
-
+      <div className="footer-newsletter col-span-1 flex justify-end items-start">
         <div className="footer-social-links">
           <ul className="flex items-center gap-2">
             <li>
