@@ -45,12 +45,12 @@ function contact() {
         }}
       />
       <Header activePage={5} />
-      <div className="w-full h-[385px] md:h-[578px] bg-[#e7ab33ac] flex items-center justify-center">
+      <div className="w-full h-[385px] md:h-[578px] bg-[#7d5e20ac] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl heading font-light text-white/70">
             Let`s Chat
           </h1>
-          <p className="mt-6 text-sm text-white/90 max-w-[395px]">
+          <p className="mt-6 text-sm text-white/90 max-w-[395px] md:max-w-[565px] md:text-xl">
             Whether it’s help with an order, a question about our quality, or
             some design advice, we always love hearing from you.
           </p>

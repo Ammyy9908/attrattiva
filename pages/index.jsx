@@ -99,7 +99,7 @@ export default function Home() {
                     style={{ transitionDuration: "2s" }}
                   >
                     <img
-                      src="/images/elegance/bedroom/1.png"
+                      src="/images/eleganza.jpg"
                       alt=""
                       className="w-full group-hover:scale-125 h-full object-cover transition-all"
                       style={{ transitionDuration: "2s" }}
@@ -374,6 +374,59 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-16 mt-8 lg:shadow-2xl rounded-md">
+          <h2 className="text-3xl md:text-5xl text-center">Our Founders</h2>
+          <div className="flex flex-col w-full items-start gap-32 mt-6 ">
+            <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16 ">
+              <div className="col-span-3 ">
+                <h3 className="text-3xl font-bold">Founder 1</h3>
+                <p className="text-xl mt-4">
+                  Meet our founder, a seasoned Business Administration
+                  professional who discovered his true calling while building
+                  his dream home. Decades of factory floor experience,
+                  collaborating with skilled artisans, fueled his passion for
+                  furniture manufacturing. From this journey emerged a
+                  commitment to blend comfort and luxury in every home.
+                  &quot;Your comfort is our duty&quot; is not just a mission;
+                  it`s a philosophy ingrained in our founder`s vision. Welcome
+                  to a world where passion meets craftsmanship, and your home`s
+                  comfort is our utmost priority.
+                </p>
+              </div>
+              <div className="col-span-3 ">
+                <img
+                  src="/images/founders/founder.png"
+                  alt="founder-attrrattiva"
+                />
+              </div>
+            </div>
+            <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16">
+              <div className="col-span-3 w-full lg:h-[718px]">
+                <img
+                  src="/images/founders/co-founder.jpg"
+                  alt="co-founder-attrattiva"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="col-span-3">
+                <h3 className="text-3xl font-bold">Founder 2</h3>
+                <p className="text-xl mt-4">
+                  Meet one of our Co-Founders – a full-time problem solver and
+                  the backbone of our team. He`s like the calm captain steering
+                  our ship, making sure everything runs smoothly and we deliver
+                  top-notch quality to our clients. At 45, he started this
+                  exciting journey with us, bringing loads of passion, hard
+                  work, and creativity. He`s not just a boss; he`s the kind of
+                  leader who personally checks every piece of furniture to
+                  ensure it`s perfect. His energy and encouragement motivate
+                  everyone in our Attrattiva family to learn and grow every day.
+                  Cheers to the heart and soul of our team!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <section className="contact-banner-home w-full mt-32">
           <Link href={"/pages/contact"}>

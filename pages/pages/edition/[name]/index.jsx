@@ -16,10 +16,7 @@ function Collection() {
     if (router.isReady) {
       const { query } = router;
       const { name } = query;
-      console.log("Category Id is", name);
       const filteredVarient = variants.filter((v) => v.name == name);
-
-      console.log("Filtered Varient is", filteredVarient);
       setVariant(filteredVarient[0]);
     }
   }, [router, router.isReady]);

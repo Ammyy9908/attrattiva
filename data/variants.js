@@ -8,7 +8,7 @@ const variants = [
       {
         id: 1,
         name: "Chairs",
-        thumbnail: "/images/chairs/1.jpeg",
+        thumbnail: "/images/chairs/1.jpg",
         slug: "chairs-collectiion",
       },
       {
@@ -20,7 +20,7 @@ const variants = [
       {
         id: 3,
         name: "Dining",
-        thumbnail: "/images/dining/1.jpg",
+        thumbnail: "/images/dining/dining.jpeg",
         slug: "dining-collection",
       },
       {
@@ -44,8 +44,14 @@ const variants = [
       {
         id: 7,
         name: "Paintings",
-        thumbnail: "/images/paintings/1.jpeg",
+        thumbnail: "/images/paintings/paintings.jpeg",
         slug: "paintings-collection",
+      },
+      {
+        id: 8,
+        name: "Bespokes",
+        thumbnail: "/images/paintings/paintings.jpeg",
+        slug: "bespoke-collection",
       },
     ],
   },
@@ -53,7 +59,7 @@ const variants = [
     name: "eleganza",
     heading: "Eleganza Edition",
     path: "/pages/collections/eleganza",
-    thumbnail: "/images/elegance/bedroom/1.png",
+    thumbnail: "/images/eleganza.jpg",
     items: [
       {
         id: 1,
