@@ -47,6 +47,11 @@ function Collections() {
         <h1 className="text-3xl md:text-4xl lg:text-6xl">
           Explore our Collections
         </h1>
+        <p className="my-6 text-xl md:text-2xl w-full sm:w-[675px] lg:w-[968px] text-black/60 leading-10">
+          Welcome to a World of Crafting Comfort and Style: Explore Our
+          Signature Furniture Pieces which are hand-carved and done with fine
+          craftsmanship.
+        </p>
       </div>
       <div className="collections-grid grid md:grid-cols-2 lg:grid-cols-3 gap-12 w-full my-16 px-6 md:px-16">
         {colllections.map((collection, Index) => {

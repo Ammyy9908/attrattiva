@@ -375,12 +375,12 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-16 mt-8 lg:shadow-2xl rounded-md">
+        <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-16 mt-8">
           <h2 className="text-3xl md:text-5xl text-center">Our Founders</h2>
           <div className="flex flex-col w-full items-start gap-32 mt-6 ">
             <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16 ">
               <div className="col-span-3 ">
-                <h3 className="text-3xl font-bold">Founder 1</h3>
+                <h3 className="text-3xl font-bold">Mr. Kashish Aggarwal</h3>
                 <p className="text-xl mt-4">
                   Meet our founder, a seasoned Business Administration
                   professional who discovered his true calling while building
@@ -410,7 +410,7 @@ export default function Home() {
                 />
               </div>
               <div className="col-span-3">
-                <h3 className="text-3xl font-bold">Founder 2</h3>
+                <h3 className="text-3xl font-bold">Mr. Sachin Aggarwal</h3>
                 <p className="text-xl mt-4">
                   Meet one of our Co-Founders – a full-time problem solver and
                   the backbone of our team. He`s like the calm captain steering

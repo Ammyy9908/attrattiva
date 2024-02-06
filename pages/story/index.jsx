@@ -30,11 +30,11 @@ function Story() {
         <div className="story__top__section__content">
           <h1 className="text-5xl title">Our Story</h1>
           <div className="mt-3">
-            <h2>
+            <p className="text-xl">
               <span className="title">Your</span> home should tell the story of
               who you are, and be a collection of what you love.
-            </h2>
-            <p>
+            </p>
+            <p className="text-xl">
               An intuitive eye for quality, detail, and presentation, has always
               believed in pushing the boundaries especially when it comes to
               redefining affordable luxury interiors.{" "}
@@ -59,7 +59,7 @@ function Story() {
               by experienced craftsmen we have created a niche market for
               ourselves and completed several prestigious projects.
             </p>
-            <p>
+            <p className="text-xl">
               Our aim is to promote good customized designs, which includes
               comfort, strength, durability, visual satisfaction, functional &
               structural benefits. Moreover, our promise is to provide our
@@ -84,7 +84,7 @@ function Story() {
           <h2 className="text-3xl font-bold title text-[#c29538]">
             Our Mission
           </h2>
-          <p className="text-black/60 mt-3">
+          <p className="text-black/60 mt-3 text-xl">
             To offer the customer a product that perfectly blends imagination
             with simplicity, elegance with comfort and exclusivity with
             affordability by effective utilization of our design, procurement &
@@ -95,7 +95,7 @@ function Story() {
           <h2 className="text-3xl font-bold title text-[#c29538]">
             Our Vision
           </h2>
-          <p className="text-black/60 mt-3">
+          <p className="text-black/60 mt-3 text-xl">
             Our vision is to be a leading Luxury products company offering
             innovative and superior quality products.
           </p>

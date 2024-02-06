@@ -50,9 +50,9 @@ const blogs = [
           architect and interior designers according to the demands and the
           personal tastes of the clients, the interior of the home and so on.
         </p>
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <img src="/images/Bespoke.png" alt="blog" />
-        </div>
+        </div> */}
         <p className="my-3">
           Home looks elegant when items are thoughtfully places rather than
           carefully strewn about. And in order to create a sophisticated looking
@@ -116,9 +116,9 @@ const blogs = [
           them with your favourite furniture elements to craft the design of
           your dream.
         </p>
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <img src="/images/Bespoke.png" alt="blog" />
-        </div>
+        </div> */}
         <p className="my-3">
           Having bespoke furniture offers the freedom to design whatever you
           want for your home but sometimes that could be hard to picture. When
@@ -175,9 +175,9 @@ const blogs = [
           unmatched appeal. Inlay work in Semi-Precious stones involves hand
           cutting of the stones and then shaping them.
         </p>
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <img src="/images/Bespoke.png" alt="blog" />
-        </div>
+        </div> */}
         <p className="my-3">
           semi precious inlay work THE ART OF THE BEAUTIFUL SEMI PRECIOUS INLAY
           WORK! Since the Time Memorial, people have been a huge fan of
@@ -277,7 +277,7 @@ const blogs = [
           popular even today.
         </p>
         <div className="flex items-center justify-center">
-          <img src="/images/Silver-Artifacts.jpg" alt="blog" />
+          <img src="/images/silverfurniture-550x550.jpg" alt="blog" />
         </div>
         <p className="my-3">
           Ancient Civilization has been using silver for their exterior as well
@@ -335,9 +335,9 @@ const blogs = [
           brought up by Thanjavur has provided us with the most valuable
           cultural treasure.
         </p>
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <img src="/images/Bespoke.png" alt="blog" />
-        </div>
+        </div> */}
 
         <h1 className="text-3xl font-bold text-center my-3">
           REASONS WHY ONE SHOULD CHOOSE TANJORE PAINTINGS?
@@ -482,7 +482,7 @@ const blogs = [
     title: "TANJORE PAINTINGS",
     description:
       "Tanjore Paintings – Where Creativity Meets Tradition Since ancient times, Art has be...",
-    thumbnail: "/images/Bespoke.png",
+    thumbnail: "/images/tanjori.jpeg",
     slug: "tanjore-paintings-where-creativity-meets-tradition",
     jsx: (
       <div className="mt-12">
