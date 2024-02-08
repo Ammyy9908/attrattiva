@@ -50,7 +50,7 @@ const variants = [
       {
         id: 8,
         name: "Bespokes",
-        thumbnail: "/images/paintings/paintings.jpeg",
+        thumbnail: "/images/bespoke.jpg",
         slug: "bespoke-collection",
       },
     ],
@@ -59,7 +59,7 @@ const variants = [
     name: "eleganza",
     heading: "Eleganza Edition",
     path: "/pages/collections/eleganza",
-    thumbnail: "/images/eleganza.jpg",
+    thumbnail: "/images/elegana.png",
     items: [
       {
         id: 1,

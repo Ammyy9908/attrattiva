@@ -2,7 +2,7 @@ import React from "react";
 import { RiPinterestLine } from "react-icons/ri";
 import { GrInstagram } from "react-icons/gr";
 import Link from "next/link";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -35,6 +35,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.facebook.com/AttrattivaIndia/"
+                target="_blank"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <FaFacebookSquare />
@@ -43,19 +44,30 @@ function Footer() {
             <li>
               <a
                 href="https://www.instagram.com/attrattivaindia/?hl=en"
+                target="_blank"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
               >
                 <GrInstagram />
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
-                href="https://www.linkedin.com/in/attrattiva-design-923056184/?originalSubdomain=in"
+                href="www.linkedin.com/in/attrattiva-design-923056184"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
+                target="_blank"
               >
                 <FaLinkedin />
               </a>
-            </li> */}
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@kashishaggarwal2532"
+                target="_blank"
+                className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
+              >
+                <FaYoutube />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

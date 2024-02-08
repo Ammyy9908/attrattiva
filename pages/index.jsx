@@ -39,8 +39,44 @@ export default function Home() {
       <Header activePage={0} />
 
       <div className="w-full">
-        <div className="home_hero_section  xl:h-[768px] mt-32">
-          <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-16 py-32">
+        <section className="hero-mobile block md:hidden">
+          <div className="w-full relative">
+            <img
+              src="/images/attrattiva.jpg"
+              alt=""
+              style={{ transitionDuration: "2s" }}
+              className="w-full h-[478px] object-cover"
+            />
+            <div className="absolute w-full h-full inset-0 z-10 flex flex-col items-center justify-center">
+              <h3 className="text-5xl text-white">Attrattiva</h3>
+              <a
+                href="#"
+                className=" mt-4 w-[215px] h-[42px] bg-white flex items-center justify-center font-semibold"
+              >
+                View Edition
+              </a>
+            </div>
+          </div>
+          <div className="w-full relative">
+            <img
+              src="/images/elegana.png"
+              alt=""
+              style={{ transitionDuration: "2s" }}
+              className="w-full h-[478px] object-cover"
+            />
+            <div className="absolute w-full h-full inset-0 z-10 flex flex-col items-center justify-center">
+              <h3 className="text-5xl text-white">Eleganza</h3>
+              <a
+                href="#"
+                className=" mt-4 w-[215px] h-[42px] bg-white flex items-center justify-center font-semibold"
+              >
+                View Edition
+              </a>
+            </div>
+          </div>
+        </section>
+        <div className="hidden md:block home_hero_section  xl:h-[768px] mt-32">
+          <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-32 py-32">
             <div className="hero-component-b group relative cursor-pointer">
               <div
                 className="hero-b-component-bakcground  h-[465px] xl:h-[475px] -left-[800px] group-hover:left-0 xl:absolute bg-yellow-200/50 w-full transition-all rounded-md"
@@ -78,7 +114,7 @@ export default function Home() {
           "
             >
               <div
-                className=" hero-b-component-bakcground  h-[475px] -right-[800px] group-hover:right-0 xl:absolute bg-red-200/50 w-full transition-all rounded-md"
+                className=" hero-b-component-bakcground  h-[475px] -right-[800px] group-hover:right-0 xl:absolute bg-blue-200/50 w-full transition-all rounded-md"
                 style={{ transitionDuration: "2s" }}
               ></div>
               <div className="hero-component-content absolute -top-10 left-10 h-[475px]">
@@ -99,7 +135,7 @@ export default function Home() {
                     style={{ transitionDuration: "2s" }}
                   >
                     <img
-                      src="/images/eleganza.jpg"
+                      src="/images/elegana.png"
                       alt=""
                       className="w-full group-hover:scale-125 h-full object-cover transition-all"
                       style={{ transitionDuration: "2s" }}
@@ -163,35 +199,23 @@ export default function Home() {
           </div>
           <div className="about-section-content md:col-span-2 mt-12 text-center">
             <p className="text-black/50">
-              <Link href={"/"} className="text-[#c29538]">
-                Attrattiva
-              </Link>{" "}
-              is a well-known brand engaged in manufacturing, Supplying,
-              Importing & Exporting Luxury Products of Interior & Exterior
-              Designing to make your space look exquisite. We have experience of
-              over 15+ years in this Industry. Our range of products includes{" "}
-              <Link href={"/"} className="text-[#c29538]">
-                Bespoke Furniture
-              </Link>
+              Attrattiva is a well-known brand engaged in manufacturing,
+              Supplying, Importing, and exporting Luxury Products of Interior
+              and exterior design to make your space look exquisite. We have
+              experience of over 15+ years in this Industry. Our range of
+              products includes Bespoke Furniture (wood and metal), Home décor
+              and Art, Tanjore paintings, Modern art and paintings,
+              Semi-Precious inlay work, God figures, Silver artifacts and
+              furniture, Pichwai art, and painting. We are also engaged in
+              providing Interior solutions such as space planning. We have a
+              well functional & spacious infrastructural unit where we
+              efficiently manufacture our products. We have a team of creative,
+              skilled, and innovative artisans who offer splendid product
+              designs. At Attrattiva, We believe in designing iconic pieces that
+              set you apart from the crowd. It isn`t just about uplifting the
+              aesthetics of your space but crafting furniture that reflects your
+              persona.
             </p>
-            <p className="text-black/50">
-              {" "}
-              (wood & metal), Home décor and Art, Tanjore paintings, Modern art
-              and paintings, Semi-Precious inlay work, God figures, Silver
-              artefacts and furniture, Pichwai art and painting. We are also
-              engaged in providing{" "}
-              <Link href={"/"} className="text-[#c29538]">
-                Interior solutions
-              </Link>{" "}
-              such as space planning. We have a well functional & spacious
-              infrastructural unit where we manufacture our products in an
-              efficient manner. We have a team of creative, skilled, and
-              innovative artisans who make sure to offer splendid designs in our
-              products. At Attrattiva, We believe in designing iconic pieces
-              that set you apart from the crowd. It isn’t just about uplifting
-              the aesthetics of your space but crafting furniture that reflects
-              your persona.
-            </p>{" "}
             {/* <p className="text-black/50">
            
           </p> */}
@@ -375,7 +399,7 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-16 mt-8">
+        <div className="founders-section w-[98%] lg:w-[95%] mx-auto py-8 mt-8">
           <h2 className="text-3xl md:text-5xl text-center">Our Founders</h2>
           <div className="flex flex-col w-full items-start gap-32 mt-6 ">
             <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16 ">
@@ -402,11 +426,11 @@ export default function Home() {
               </div>
             </div>
             <div className="founder-block w-full grid grid-cols-1 lg:grid-cols-6 my-12 gap-16 px-3 md:px-16">
-              <div className="col-span-3 w-full lg:h-[718px]">
+              <div className="col-span-3">
                 <img
                   src="/images/founders/co-founder.jpg"
                   alt="co-founder-attrattiva"
-                  className="h-full w-full object-cover"
+                  className="h-[347px] w-[347px]"
                 />
               </div>
               <div className="col-span-3">

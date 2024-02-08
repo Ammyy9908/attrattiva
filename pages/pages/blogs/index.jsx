@@ -30,7 +30,8 @@ function Blogs() {
       <div
         className="page-hero-section h-[540px] w-full flex items-center justify-center"
         style={{
-          backgroundImage: `url("//maidenhome.com/cdn/shop/files/Material_Laydown_order_portal_2000x.jpg?v=1663705398)`,
+          backgroundImage: `url("/images/journal.jpg")`,
+          backgroundSize: "cover",
         }}
       >
         <h1 className="text-white text-6xl title">Journal</h1>

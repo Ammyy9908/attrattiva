@@ -5,6 +5,7 @@ import { NextSeo } from "next-seo";
 import React from "react";
 import { BsPinMapFill } from "react-icons/bs";
 import { FaMobileAlt } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 function FormControl({ placeholder, name, type }) {
   return (
@@ -61,7 +62,7 @@ function contact() {
         <h1 className="text-center text-xl md:text-2xl lg:text-3xl title">
           WE INVITE YOU TO VISIT US AND GET A GLIMPSE INTO OUR EXQUISITE WORLD
         </h1>
-        <div className="contact-bullet-points  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-12">
+        <div className="contact-bullet-points  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-12">
           <div className="flex flex-col items-start gap-3">
             <div className="point-icon text-4xl">
               <BsPinMapFill />
@@ -88,6 +89,14 @@ function contact() {
             </div>
             <div className="point-content">
               <h3 className="text-xl">+91-9811029255</h3>
+            </div>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <div className="point-icon text-4xl">
+              <MdOutlineEmail />
+            </div>
+            <div className="point-content text-xl">
+              <a href="mailto:designs@attrattiva.in">designs@attrattiva.in</a>
             </div>
           </div>
         </div>
