@@ -1,15 +1,12 @@
-import CollectionSmallCard from "@/components/CollectionCard";
-import CollectionCardLarge from "@/components/ColllectionCardLarge";
 import WhatsappButton from "@/components/Fab";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import SmallAlbumCard from "@/components/SmallCard";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import {
   elegance_collection,
   attrattive_colllections,
-} from "@/data/collections";
+} from "@/data/edition_collections";
 
 function ImageCard({ image }) {
   return (
@@ -57,7 +54,7 @@ function Collection() {
   return (
     <div>
       <div
-        className="collection-full-screen-hero w-full h-[465px] lg:h-[798px] relative"
+        className="collection-full-screen-hero w-full h-[465px] lg:h-[518px] relative"
         style={{
           backgroundImage: `url("${collection && collection.cover}")`,
           backgroundSize: "cover",

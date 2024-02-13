@@ -21,14 +21,14 @@ function Collection() {
     }
   }, [router, router.isReady]);
 
-  console.log("Varient", variant);
   return (
     <div>
       <div
-        className="collection-full-screen-hero w-full h-[465px] lg:h-[768px] relative"
+        className="collection-full-screen-hero w-full h-[465px] lg:h-[568px] relative"
         style={{
           backgroundImage: `url("${variant && variant.thumbnail}")`,
           backgroundSize: "cover",
+          backgroundAttachment: "fixed",
         }}
       >
         <div className="hero-overlay absolute w-full h-full bg-yellow-700/30"></div>

@@ -50,7 +50,7 @@ export default function Home() {
             <div className="absolute w-full h-full inset-0 z-10 flex flex-col items-center justify-center">
               <h3 className="text-5xl text-white">Attrattiva</h3>
               <a
-                href="#"
+                href={"/pages/edition/attrattiva"}
                 className=" mt-4 w-[215px] h-[42px] bg-white flex items-center justify-center font-semibold"
               >
                 View Edition
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="absolute w-full h-full inset-0 z-10 flex flex-col items-center justify-center">
               <h3 className="text-5xl text-white">Eleganza</h3>
               <a
-                href="#"
+                href={"/pages/edition/eleganza"}
                 className=" mt-4 w-[215px] h-[42px] bg-white flex items-center justify-center font-semibold"
               >
                 View Edition

@@ -3,11 +3,11 @@ const attrattive_colllections = [
     id: 1,
     title: "Chairs Collectiion",
     slug: "chairs-collectiion",
-    cover: "/images/chairs/cover.jpg",
+    cover: "/images/chairs/1.jpg",
     description:
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
     images: [
-      "/images/chairs/1.jpeg",
+      "/images/chairs/1.jpg",
       "/images/chairs/2.jpeg",
       "/images/chairs/3.jpeg",
       "/images/chairs/4.jpeg",

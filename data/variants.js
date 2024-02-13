@@ -23,18 +23,18 @@ const variants = [
         thumbnail: "/images/dining/dining.jpeg",
         slug: "dining-collection",
       },
-      {
-        id: 4,
-        name: "Kitchen",
-        thumbnail: "/images/chairs/1.jpeg",
-        slug: "kitchen-collection",
-      },
-      {
-        id: 5,
-        name: "Walking Closet",
-        thumbnail: "/images/chairs/1.jpeg",
-        slug: "walking-closet-collection",
-      },
+      // {
+      //   id: 4,
+      //   name: "Kitchen",
+      //   thumbnail: "/images/chairs/1.jpeg",
+      //   slug: "kitchen-collection",
+      // },
+      // {
+      //   id: 5,
+      //   name: "Walking Closet",
+      //   thumbnail: "/images/chairs/1.jpeg",
+      //   slug: "walking-closet-collection",
+      // },
       {
         id: 6,
         name: "Artifacts",

@@ -47,7 +47,7 @@ function Collections() {
         <h1 className="text-3xl md:text-4xl lg:text-6xl">
           Explore our Collections
         </h1>
-        <p className="my-6 text-xl md:text-2xl w-full sm:w-[675px] lg:w-[968px] text-black/60 leading-10">
+        <p className="my-6 text-xl md:text-2xl w-full sm:w-[675px] lg:w-[568px] text-black/60 leading-10">
           Welcome to a World of Crafting Comfort and Style: Explore Our
           Signature Furniture Pieces which are hand-carved and done with fine
           craftsmanship.
