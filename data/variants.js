@@ -44,7 +44,7 @@ const variants = [
       {
         id: 7,
         name: "Paintings",
-        thumbnail: "/images/paintings/paintings.jpeg",
+        thumbnail: "/images/paintings/1.jpeg",
         slug: "paintings-collection",
       },
       {
