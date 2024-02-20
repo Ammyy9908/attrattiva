@@ -64,7 +64,7 @@ const variants = [
       {
         id: 1,
         name: "Bedroom",
-        thumbnail: "/images/elegance/bedroom/1.png",
+        thumbnail: "/images/elegance/bedroom/1.jpg",
         slug: "bedrooms-collection",
       },
       {
@@ -82,7 +82,7 @@ const variants = [
       {
         id: 4,
         name: "Living",
-        thumbnail: "/images/elegance/living/1.png",
+        thumbnail: "/images/elegance/living/1.jpg",
         slug: "living-collection",
       },
     ],

@@ -28,13 +28,26 @@ function Blogs() {
       />
       <Header activePage={4} />
       <div
-        className="page-hero-section h-[540px] w-full flex items-center justify-center"
+        className="flex md:hidden page-hero-section h-[540px] w-full items-center justify-center relative"
         style={{
           backgroundImage: `url("/images/journal.jpg")`,
           backgroundSize: "cover",
         }}
       >
-        <h1 className="text-white text-6xl title">Journal</h1>
+        <div className="overlay absolute w-full h-full bg-orange-300/50 z-20 flex items-center justify-center">
+          <h1 className="text-white text-6xl title">Journal</h1>
+        </div>
+      </div>
+      <div
+        className="hidden md:flex page-hero-section h-[540px] w-full items-center justify-center relative"
+        style={{
+          backgroundImage: `url("/images/journal.jpg")`,
+          backgroundSize: "contain",
+        }}
+      >
+        <div className="overlay absolute w-full h-full bg-orange-300/50 z-20 flex items-center justify-center">
+          <h1 className="text-white text-6xl title">Journal</h1>
+        </div>
       </div>
 
       <div className="blogs--container  bg-[#faf9f7] ">

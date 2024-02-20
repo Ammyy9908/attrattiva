@@ -113,8 +113,8 @@ const colllections = [
   },
   {
     id: 4,
-    slug: "tanjoore-paintings",
-    title: "Tanjoore Paintings",
+    slug: "tanjore-paintings",
+    title: "Tanjore Paintings",
     cover: "/images/WhatsApp-Image-2021-03-23-at-10.46.25-AM-2-1-550x550.jpeg",
     description:
       "Tanjore Paintings are the classical south Indian art that was developed in the late 16th century in Thanjavur also known as Tanjore in Tamil Nadu state. These Tanjore paintings elicit a sense of class and style with their alluring illustrations of puranic scenes.",

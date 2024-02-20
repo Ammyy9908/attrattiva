@@ -52,7 +52,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="www.linkedin.com/in/attrattiva-design-923056184"
+                href="http://linkedin.com/in/attrattiva-india-923056184"
                 className="flex w-12 h-12 bg-black text-white text-2xl items-center justify-center"
                 target="_blank"
               >

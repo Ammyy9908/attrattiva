@@ -1,26 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import StoryCard from "@/components/StoryCard";
-import { Inter } from "next/font/google";
-import {
-  elegance_collection,
-  attrattive_colllections,
-} from "@/data/edition_collections";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { BsClock, BsFillBoxFill } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io";
 import Link from "next/link";
-const inter = Inter({ subsets: ["latin"] });
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Autoplay, Pagination, Navigation } from "swiper";
 import WhatsappButton from "@/components/Fab";
-import Sidebar from "@/components/Sidebar";
 import { colllections } from "@/data/collections";
 
 function FactItem({ Icon, title, description }) {
@@ -126,7 +111,7 @@ export default function Home() {
                     Eleganza
                   </h3>
                   <p className="text-4xl font-semibold">
-                    Made in India Luxury Design.
+                    Made in India Design.
                   </p>
                 </div>
                 <Link href={"/pages/edition/eleganza"}>
