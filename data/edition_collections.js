@@ -29,7 +29,7 @@ const attrattive_colllections = [
     id: 2,
     slug: "bedrooms-collection",
     title: "Bedroom Collectiion",
-    cover: "/images/bed/cover.jpg",
+    cover: "/images/bed/20.jpeg",
     description:
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
     images: [
@@ -58,7 +58,7 @@ const attrattive_colllections = [
     id: 3,
     slug: "dining-collection",
     title: "Dining Collectiion",
-    cover: "/images/dining/cover.jpg",
+    cover: "/images/dining/dining.jpeg",
     description:
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
     images: [
@@ -147,7 +147,7 @@ const attrattive_colllections = [
   {
     id: 7,
     slug: "paintings-collection",
-    cover: "/images/paintings/cover.jpg",
+    cover: "/images/paintings/1.jpeg",
     title: "Paintings Collectiion",
     description:
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
@@ -162,7 +162,7 @@ const attrattive_colllections = [
   {
     id: 8,
     slug: "bespoke-collection",
-    cover: "/images/bespoke/C.jpg",
+    cover: "/images/bespoke.jpg",
     title: "Bespoke Collectiion",
     description:
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
@@ -256,8 +256,12 @@ const elegance_collection = [
       "If you are looking for suitable furniture for your own home, you usually do not want to be satisfied with average goods from the local dealer. They are not made perfectly according to your space situation and therefore you have to always a compromise.  However, there is now a better alternative: the bespoke furniture from Attrattiva.  Here you will find furniture that is made according to your requirements and individual ideas. You have the advantage to use your space perfectly and at the same time emphasize the sophistication of your living space. Integrate the hard-Here, we provide you with rich quality Bespoke furniture in both kinds of wood as well as a metal material. We are regarded as a renowned Bespoke furniture manufacturer and supplier. ",
     images: [
       "/images/elegance/dining/1.png",
-      "/images/elegance/bedroom/2.png",
-      "/images/elegance/bedroom/3.png",
+      "/images/elegance/dining/2.png",
+      "/images/elegance/dining/3.png",
+      "/images/elegance/dining/4.jpg",
+      "/images/elegance/dining/5.jpg",
+      "/images/elegance/dining/6.png",
+      "/images/elegance/dining/7.png",
     ],
   },
   {

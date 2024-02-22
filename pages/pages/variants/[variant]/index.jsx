@@ -34,27 +34,44 @@ function Collection() {
       const { query } = router;
       const { variant, parent } = query;
 
-      console.log(query);
-      console.log("Parent Id is", parent);
-
       let filteredVarient = [];
       if (parent == "eleganza") {
-        console.log("Inside eleganza", parent);
         filteredVarient = elegance_collection.filter((c) => c.slug == variant);
       } else {
         filteredVarient = attrattive_colllections.filter(
           (c) => c.slug == variant
         );
       }
-
-      console.log("Filtered Varient is", filteredVarient);
       setCollection(filteredVarient[0]);
     }
   }, [router, router.isReady]);
   return (
     <div>
       <div
-        className="collection-full-screen-hero w-full h-[465px] lg:h-[518px] relative"
+        className="hidden md:block collection-full-screen-hero w-full h-[465px] lg:h-[618px] relative"
+        style={{
+          backgroundImage: `url("${collection && collection.cover}")`,
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="hero-overlay absolute w-full h-full bg-yellow-700/30"></div>
+        <Header activePage={3} transparent={true} />
+        <div className="collection-hero-content absolute inset-0 w-full h-full flex items-center justify-center">
+          <div className="flex flex-col items-center gap-8">
+            <h1 className="text-4xl  sm:text-6xl lg:text-8xl text-white">
+              {collection && collection.title}
+            </h1>
+            <a
+              href="#gallery"
+              className="px-2 py-3 flex items-center justify-center bg-black text-white rounded-full w-[190px]"
+            >
+              Explore
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="block md:hidden collection-full-screen-hero w-full h-[465px] lg:h-[518px] relative"
         style={{
           backgroundImage: `url("${collection && collection.cover}")`,
           backgroundSize: "cover",

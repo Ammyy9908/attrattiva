@@ -24,7 +24,34 @@ function Collection() {
   return (
     <div>
       <div
-        className="collection-full-screen-hero w-full h-[465px] lg:h-[568px] relative"
+        className="hidden md:block collection-full-screen-hero w-full h-[465px] lg:h-[568px] relative"
+        style={{
+          backgroundImage: `url("${variant && variant.thumbnail}")`,
+          backgroundSize: "contain",
+          backgroundAttachment: "fixed",
+        }}
+      >
+        <div className="hero-overlay absolute w-full h-full bg-yellow-700/30"></div>
+        <Header activePage={3} transparent={true} />
+        <div className="collection-hero-content absolute inset-0 w-full h-full flex items-center justify-center">
+          <div className="flex flex-col items-center gap-3">
+            <h1 className="text-4xl  sm:text-6xl lg:text-8xl text-white">
+              {variant && variant.heading}
+            </h1>
+            <p className="text-white text-xl lg:text-3xl font-semibold">
+              Comfort is the new luxury
+            </p>
+            <a
+              href="#"
+              className="px-2 py-3 flex items-center justify-center bg-black text-white rounded-full w-[190px]"
+            >
+              Take a look
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="block md:hidden collection-full-screen-hero w-full h-[465px] lg:h-[568px] relative"
         style={{
           backgroundImage: `url("${variant && variant.thumbnail}")`,
           backgroundSize: "cover",
