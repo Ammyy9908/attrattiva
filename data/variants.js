@@ -75,12 +75,6 @@ const variants = [
       },
       {
         id: 3,
-        name: "Entrance",
-        thumbnail: "/images/elegance/entrance/1.png",
-        slug: "entrance-collection",
-      },
-      {
-        id: 4,
         name: "Living",
         thumbnail: "/images/elegance/living/1.jpg",
         slug: "living-collection",

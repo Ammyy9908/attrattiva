@@ -83,9 +83,9 @@ const blogs = [
           Bespoke furniture as we have all been aware offers a wide range of
           opportunities for any space. It offers a great way to bring out your
           personal sense of style in your home. Creating a bespoke furniture
-          piece takes into account several design choices. In today’s blog, we
+          piece takes into account several design choices. In today`s blog, we
           talk about how you can achieve a timeless look using bespoke
-          furniture. Your home’s interior design should always merge the look
+          furniture. Your home`s interior design should always merge the look
           you love with the furniture that fits the space and maximizes
           usability. Bespoke furniture designs are the best way to create a
           unique decorating layout that is practical as well as useful. Having a
@@ -99,7 +99,7 @@ const blogs = [
           just the modification of an already establishes design.
         </p>
         <p className="mb-3">
-          Do you feel that there’s something missing in your home? Perhaps you
+          Do you feel that there`s something missing in your home? Perhaps you
           would see some empty space, corner or a wide-open space that needs an
           object to fill it. Then bespoke furniture would be the best choice, it
           fits into almost any decorating plan. These pieces of furniture work
@@ -311,7 +311,7 @@ const blogs = [
           Tanjore paintings, also known as Thanjavur Paintings. These paintings
           rank among the greatest traditional art form which India has noted
           worldwide. As we have already seen in the previous blog that these
-          paintings are a celebration of the region’s artistic and rich
+          paintings are a celebration of the region`s artistic and rich
           tradition which is named after the town of Thanjavur in Tamil Nadu.
           Tanjore Paintings are known for their extravagant depictions of the
           deities and other gods with the use of vibrant colours and textures
@@ -329,7 +329,7 @@ const blogs = [
           that a thing of beauty is a joy forever. Paints are known for adding a
           touch of harmony and beauty to any surroundings they are kept to. They
           have been a form of expression, true wisdom of worship and a
-          collector’s love. Tanore paintings have been known to be founded in
+          collector`s love. Tanore paintings have been known to be founded in
           the 17th century and have registered most of their evolutionary
           changes under different rulers in Thanjavur. This fine art that was
           brought up by Thanjavur has provided us with the most valuable
@@ -359,7 +359,7 @@ const blogs = [
           <li>
             Apart from this, Tanjore Paintings can also be a perfect voyage gift
             for anyone moving out of the country because what could be better
-            than a traditional gift connected to one’s Indian roots.
+            than a traditional gift connected to one`s Indian roots.
           </li>
         </ul>
         <p className="my-3">
@@ -561,6 +561,142 @@ const blogs = [
           task and Tanjore paintings have testified this fact down through the
           generations. Tanjore painting styles require a lot of good deal
           passion and perfection.{" "}
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 8,
+    title: "SEMI-PRECIOUS STONE FURNITURE",
+    description:
+      "Designing a space is a journey that starts with an idea and the artful conception of the interior and ends with the manifestation of that exquisite idea.",
+    thumbnail: "/images/semi-precious.jpeg",
+    slug: "semi-precious-stone-furniture-turning-places-into-royal-spaces",
+    jsx: (
+      <div className="mt-12">
+        <p className="mb-3">
+          Designing a space is a journey that starts with an idea and the artful
+          conception of the interior and ends with the manifestation of that
+          exquisite idea. It appears to be more than just colouring the room
+          with bright and bold colours or just playing some artistic painting on
+          the walls. Space should speak for itself. It is like adding a vibrant
+          touch of creativity and decorating it with ye things that can bring a
+          charismatic touch of elegance to space. We are well aware of the
+          beauty that the semi-precious stone creates for a home. These stone
+          furniture can bring a feeling of positivity and royalty. Attrattiva is
+          engaged in manufacturing and supplying the best quality. Semi-Precious
+          Stone Furniture In Noida. The semi Precious stone furniture is highly
+          appealing ad attractive in its looks. The luxury and the healing
+          properties of these semi-precious stones are wonderfully beneficial.
+          Their exotic colour range is soothing and encouraging and at the same
+          time could also be stimulating and harmonising.
+        </p>
+        <p className="mb-3">
+          Making use of semi-precious stones in the form of furniture means that
+          each piece caries both the artwork as well as the functional use.
+          Let`s take into consideration the blue agate wall, use of the
+          semi-precious blue agate stone not only will look beautiful but can
+          also fill a room with desires. As agate is known for balancing energy
+          so pairing them with different colours can bring an intensifying
+          effect to your home. Attrattiva brings forth an attractive and
+          exquisite range of semi-precious stone furniture for its prestigious
+          clients. Our range of furniture are highly appreciated and are durable
+          and long-lasting. These semi-precious stone furniture ranges are
+          strictly checked by our quality checkers to ensure that these are in
+          accordance with international standards. Due to their attractive
+          designs and colours, this furniture is highly renowned. The exotic
+          collection of semi-precious stone furniture from Attrattiva is a class
+          apart furniture pieces built with the sole intention of creating an
+          aura full of elegance that will make you flabbergasted. With the best
+          range of profoundly polished and finishes semi-precious stone
+          furniture, bring a flare of artistic vibes and a touch of modernity to
+          your space.
+        </p>
+        <p className="my-3">
+          Traditionally, the semi-precious stones such as lapis lazuli, tiger
+          eye and others were used for the glittering ornaments, lending their
+          precious art like aura to the object they adorn. As the trend changes,
+          these semi-precious stones were used for making exotic and opulent
+          style furniture. These are used to make centre tables, coffee tables,
+          side tables, kitchen countertops, bar tables and many more. In the
+          hallway, semi-precious stone furniture can be used in the form of
+          mirrors, seatings, lighting and other decorations. Enhance the
+          interiors of your home as well as the exteriors with an amusing range
+          of Luxury Home Furniture in Noida. They are durable, and also scratch
+          resistant as well as touch masterpiece that one must definitely own.
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 9,
+    title: "GOLD FURNITURE",
+    description:
+      "Have you ever wonder why gold is called the epitome of luxury? Gold is an old and timeless material that has been used since the time memorial in decorating the interiors of the space.",
+    thumbnail: "/images/GOld.jpg",
+    slug: "how-to-decorate-your-home-with-gold-furniture",
+    jsx: (
+      <div className="mt-12">
+        <p className="mb-3">
+          Have you ever wonder why gold is called the epitome of luxury? Gold is
+          an old and timeless material that has been used since the time
+          memorial in decorating the interiors of the space. It has been used
+          for making a wide range of items ranging from artefacts to furniture.
+          Gold furniture is known for adding a luxurious warmth to any room.
+          Each and every shade of gold you incorporate brings a charming and
+          unique effect that no other material can bring. Using gold for the
+          furniture and the home decoration has been around for a very long
+          time. From ancient Egypt, until now it has never lost its value and
+          charm. Attrattiva is the leading name having the best
+          <Link href="/" className="">
+            Gold Furniture Showroom in Delhi
+          </Link>
+          . Gold is basically is a luxurious and opulent colour that has the
+          ability to fill any space with luxury vibes. This is the main reason
+          why we associate gold with wealthiness and royalty.
+        </p>
+
+        <div className="w-full my-16">
+          <img
+            src="/images/gold-furniture.jpeg"
+            alt="gold-furniture"
+            className="w-full"
+          />
+        </div>
+        <p className="mb-3">
+          Whether you own a new home or an old one, a house is not a home until
+          you decorate it with furniture that speaks for itself. A choice of
+          furniture should always be warm and welcoming along with being
+          practical. Therefore, it is very important to pick furniture that is
+          designed o suit the requirements, and needs of your home along with
+          ensuring comfort and as well as reflecting your unique personality and
+          taste. In this case, gold furniture is the right choice for your
+          space. Gold has always been a precious metal that is most commonly
+          used by man to create and decorate and has witnessed the evolution of
+          increasingly ingenious and innovative practices. Our range of gold
+          furniture is best in class and are made according to the taste and
+          preferences of our customers. The timeless appeal and elegance &
+          sparkling details of our gold furniture are one of the special
+          features of our collection. Our range of gold furniture embodies
+          attention to all the details, even the smallest one which makes us
+          different from others.
+        </p>
+        <p className="my-3">
+          Gold furniture is a sizzling new trend that you need to hop onto. You
+          can create a show-stopping design in your space with gold furniture
+          that is both luxurious as well as welcoming. Let us take into
+          consideration the tables that are made with gold. Tables can be turned
+          out into luxurious art pieces once the gold is incorporated into its
+          design. Gold table furniture can serve as a perfect statement and
+          centrepiece for your living space and could easily be eye-catching.
+          Not just the tables but there are also other uses in which the gold
+          furniture can enhance the look of any space. It can be applied to
+          different aspects of your home without looking overdone. Gold
+          furniture can be subtle or it can be a centrepiece for your space. The
+          possibilities of furniture made with gold are endless, all you have to
+          do is to keep the balance and use this advantage to create a luxurious
+          and elegant interior. Bring a touch of royalty to your home by using
+          the gold furniture
         </p>
       </div>
     ),

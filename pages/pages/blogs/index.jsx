@@ -27,31 +27,19 @@ function Blogs() {
         }}
       />
       <Header activePage={4} />
-      <div
-        className="flex md:hidden page-hero-section h-[540px] w-full items-center justify-center relative"
-        style={{
-          backgroundImage: `url("/images/journal.jpg")`,
-          backgroundSize: "cover",
-        }}
-      >
+      <div className="flex page-hero-section h-[640px] w-full items-center justify-center relative">
         <div className="overlay absolute w-full h-full bg-orange-300/50 z-20 flex items-center justify-center">
           <h1 className="text-white text-6xl title">Journal</h1>
         </div>
-      </div>
-      <div
-        className="hidden md:flex page-hero-section h-[540px] w-full items-center justify-center relative"
-        style={{
-          backgroundImage: `url("/images/journal.jpg")`,
-          backgroundSize: "contain",
-        }}
-      >
-        <div className="overlay absolute w-full h-full bg-orange-300/50 z-20 flex items-center justify-center">
-          <h1 className="text-white text-6xl title">Journal</h1>
-        </div>
+        <img
+          src="/images/journal.jpg"
+          alt=""
+          className="absolute w-full h-full object-cover"
+        />
       </div>
 
       <div className="blogs--container  bg-[#faf9f7] ">
-        <div className="lg:px-32 py-16 grid grid-cols-1 md:grid-cols-2 gap-16 w-[95%] md:w-[85%] mx-auto">
+        <div className="lg:px-32 py-16 grid grid-cols-1 md:grid-cols-2 gap-16 w-[95%] md:w-[98%] mx-auto">
           {blogs.map((blog, Index) => {
             return (
               <BlogCard
