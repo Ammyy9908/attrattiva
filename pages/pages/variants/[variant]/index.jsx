@@ -34,6 +34,8 @@ function Collection() {
       const { query } = router;
       const { variant, parent } = query;
 
+      console.log("Variant: " + variant);
+
       let filteredVarient = [];
       if (parent == "eleganza") {
         filteredVarient = elegance_collection.filter((c) => c.slug == variant);
@@ -45,10 +47,12 @@ function Collection() {
       setCollection(filteredVarient[0]);
     }
   }, [router, router.isReady]);
+
+  console.log("Collection", collection);
   return (
     <div>
       <div
-        className="hidden md:block collection-full-screen-hero w-full h-[465px] lg:h-[618px] relative"
+        className="hidden md:block collection-full-screen-hero w-full h-[465px] lg:h-[618px] relative lg:bg-bottom"
         style={{
           backgroundImage: `url("${collection && collection.cover}")`,
           backgroundSize: "cover",
@@ -71,11 +75,10 @@ function Collection() {
         </div>
       </div>
       <div
-        className="block md:hidden collection-full-screen-hero w-full h-[465px] lg:h-[518px] relative"
+        className="block md:hidden collection-full-screen-hero w-full h-[465px] lg:h-[518px] relative bg-bottom"
         style={{
           backgroundImage: `url("${collection && collection.cover}")`,
           backgroundSize: "cover",
-          backgroundAttachment: "fixed",
         }}
       >
         <div className="hero-overlay absolute w-full h-full bg-yellow-700/30"></div>

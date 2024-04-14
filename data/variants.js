@@ -9,7 +9,7 @@ const variants = [
         id: 1,
         name: "Chairs",
         thumbnail: "/images/chairs/1.jpg",
-        slug: "chairs-collectiion",
+        slug: "chairs-collection",
       },
       {
         id: 2,
